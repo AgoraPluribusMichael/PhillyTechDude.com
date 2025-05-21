@@ -1,0 +1,153 @@
+body {
+	font-family: 'Montserrat';
+	background-color: #202020 !important;
+}
+
+.content-area {
+    margin-top: 10px;
+	background-color: #202020;
+    overflow: auto;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: rgb(151, 129, 0);;
+}
+
+#product-image-carousel a {
+   outline: none !important; /* this will remove the outline when we click the anchor tag */
+ }
+ 
+.carousel-control:focus {
+	color: gold;
+	opacity: 0.5;
+ }
+ 
+.carousel-control:hover {
+   color: white !important;
+   opacity: 0.75 !important;
+}
+
+.carousel-control {
+	background-image: none !important;
+	width: 10%;
+}
+
+ul li {
+	color: gold;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #505050;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(151, 129, 0);
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: gold;
+}
+
+.link:link {
+	color: rgba(79, 161, 255, 1);
+	text-decoration: underline;
+}
+
+.link:visited {
+	color: rgba(79, 161, 255, 1);
+    text-decoration: underline;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.row {
+	margin: 0 auto;
+	display: table;
+}
+
+.col {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.bufferbefore {
+	padding-top: 20px;
+}
+
+.screenshot {
+	margin: 0 auto;
+	display: table;
+	width: 80%;
+}
+
+p, footer {
+	padding: 20px;
+    font-size: 16pt;
+    color: white;
+    text-align: left;
+	margin: 0;
+}
+
+.text {
+	color: white;
+	text-align: center;
+}
+
+.piccaption {
+	color: white;
+	font-size: 70%;
+	text-align: center;
+}
+
+.centerimg {
+	margin: 0 auto;
+	display: table;
+	width: 80%;
+}
+
+.col-2 {
+	width: 50%;
+}
+
+table, th, td {
+	color: white;
+	border: 0px;
+	margin-bottom: 20px;
+	padding:5px;
+	text-align: center;
+}
+
+td.p {
+	text-align: justify;
+}
+
+.panel {
+    background-color: #303030;
+    border-color: #303030;
+    margin-left: 10%;
+    width: 80%;
+}
+
+@media (max-aspect-ratio: 4/5) {
+	.col-2 {
+		width: 100%;
+		display: block;
+	}
+}
