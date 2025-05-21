@@ -28,7 +28,7 @@ $(document).ready(function() {
         '<div class="text panel panel-default">'+
             '<footer>'+
                 '<p><img src="PhillyTechDudeBro69.png"></img></p>'+
-                '<p>I\'m a private citizen from Philadelphia who wishes to stay anonymous for now, but is considering running for federal office in PA-03 in 2026</p>'+
+                '<p>I\'m a private citizen from Philadelphia who wishes to stay anonymous for now, but I\'m considering running for federal office in PA-03 in 2026</p>'+
             '</footer>'+
         '</div>'
     );
