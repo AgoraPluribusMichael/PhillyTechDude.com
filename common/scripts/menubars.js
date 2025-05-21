@@ -16,10 +16,11 @@ $(document).ready(function() {
         '<div id="topbanner" style="background-image: url(index/images/banner.jpg);"></div>'+
         '<nav id="topbar" data-spy="affix" data-offset-top="500">'+
             '<ul id="nav">'+
-                '<a href="index.html"><li id="homeTopbar" class="menuButton">✊Home</li></a>'+
+                '<a href="index.html"><li id="homeTopbar" class="menuButton">✊Rise Up</li></a>'+
                 '<a href="democracy.html"><li id="democracyTopbar" class="menuButton">🗽Democracy</li></a>'+
                 '<a href="economy.html"><li id="economyTopbar" class="menuButton">💸Economy</li></a>'+
                 '<a href="taxes.html"><li id="taxesTopbar" class="menuButton">🔰Taxes</li></a>'+
+                '<a href="social_security.html"><li id="socialSecurityTopbar" class="menuButton">👴Social Security</li></a>'+
                 '<a href="policies.html"><li id="policiesTopbar" class="menuButton">⚖️Other Policies</li></a>'+
             '</ul>'+
         '</nav>'
