@@ -1,2 +1,2 @@
-# MobfallCOM
-Site for Mobfall, minecraft datapack
+# PhillyTechDudeBro69 Politics
+A personal website to document the political beliefs of a tech bro who did his own research and came to his own conclusions and created his own solutions through his own critical thought.
