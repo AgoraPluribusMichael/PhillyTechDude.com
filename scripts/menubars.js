@@ -29,7 +29,7 @@ $(document).ready(function() {
         '<div class="text panel panel-default">'+
             '<footer>'+
                 '<p><img src="PhillyTechDudeBro69.png"></img></p>'+
-                '<p>I\'m a private citizen from Philadelphia who wishes to stay anonymous for now, but I\'m considering running for federal office in PA-03 in 2026</p>'+
+                '<p>I\'m a 28-year-old software engineer living in South Philly who is considering running for office in 2026 to represent PA-03 in Congress, because I\'m tired of writing code designed to make the rich people richer by harming our society, and I would instead prefer to advocate for and write laws to help serve the common good.</p>'+
             '</footer>'+
         '</div>'
     );
