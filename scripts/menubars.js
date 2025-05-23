@@ -13,7 +13,7 @@ $(document).ready(function() {
         '</script>'
     );
     $("body").prepend(
-        '<div id="topbanner" style="background-image: url(index/images/banner.jpg);"></div>'+
+        '<div id="topbanner" style="background-image: url(images/banner.jpg);"></div>'+
         '<nav id="topbar" data-spy="affix" data-offset-top="500">'+
             '<ul id="nav">'+
                 '<a href="index.html"><li id="homeTopbar" class="menuButton">✊Rise Up</li></a>'+
