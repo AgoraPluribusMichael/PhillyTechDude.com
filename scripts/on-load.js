@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    var href = window.location.href.toLowerCase();
-    if (!href.startsWith("file://") && href.includes("phillytechdudebro")) {
+    var href = window.location.href;
+    if (!href.startsWith("file://") && href.toLowerCase().includes("phillytechdudebro")) {
         window.location.href = "https://phillytechdude.com";  // Redirect to new URL
     } else {
         $("head").prepend(
