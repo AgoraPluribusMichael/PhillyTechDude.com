@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    if (window.location.href.toLowerCase().includes("phillytechdudebro69")) {  // Redirect to new URL
-        window.location.href = "https://phillytechdude.com";
+    var href = window.location.href.toLowerCase();
+    if (!href.startsWith("file://") && href.includes("phillytechdudebro")) {
+        window.location.href = "https://phillytechdude.com";  // Redirect to new URL
     } else {
         $("head").prepend(
         '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />'
