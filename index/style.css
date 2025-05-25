@@ -71,6 +71,11 @@ ul {
 	margin-top: 50px;
 }
 
+.subtitle {
+	text-align: center;
+	font-size: 125%;
+}
+
 @media (max-aspect-ratio: 5/5) {
 	.text {
 		font-size: 150%;
