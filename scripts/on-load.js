@@ -14,7 +14,7 @@ $(document).ready(function() {
     );
     $("body").prepend(
         '<div id="topbanner" style="background-image: url(images/banner.jpg);"></div>'+
-        '<nav id="topbar" data-spy="affix" data-offset-top="500">'+
+        '<nav id="topbar">'+
             '<ul id="nav">'+
                 '<a href="index.html"><li id="homeTopbar" class="menuButton">✊Rise Up</li></a>'+
                 '<a href="democracy.html"><li id="democracyTopbar" class="menuButton">🗽Democracy</li></a>'+
