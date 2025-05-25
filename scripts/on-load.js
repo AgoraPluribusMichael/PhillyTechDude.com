@@ -26,10 +26,10 @@ $(document).ready(function() {
         '</nav>'
     );
     $("#article").append(
-        '<footer>'+
-            '<hr>'+
+        '<hr>'+
+        '<footer style="padding-top:0">'+
             '<p>I\'m a 28-year-old software engineer living in South Philly who is considering running for office in 2026 to represent PA-03 in Congress, because I\'m tired of writing code designed to make the rich people richer by harming our society, and I would instead prefer to advocate for and write laws to help serve the common good.</p>'+
-            '<p>&copy; 2025 Philly Tech Dude. All rights reserved.</p>'+
+            '<p style="text-align:center">&copy; 2025 Philly Tech Dude. All rights reserved.</p>'+
         '</footer>'
     );
 });
