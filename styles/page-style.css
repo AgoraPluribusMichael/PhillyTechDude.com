@@ -178,6 +178,33 @@ h1 {
   font-size: 125%;
 }
 
+.info-panel {
+  background-color: #222;
+  padding: 8pt;
+  border-radius: 8px;
+  margin: auto;
+  max-width: 650px;
+}
+
+.info-heading {
+  font-size: 24pt;
+}
+
+.info-formula {
+  font-size: 20pt;
+  font-family: Cambria;
+}
+
+.info-formula-desc {
+  font-size: 12pt;
+  font-family: Cambria;
+}
+
+.info-text {
+  text-align: left;
+  font-size: 14pt;
+}
+
 @media (max-aspect-ratio: 5/5) {
   .text {
     font-size: 150%;
