@@ -9,6 +9,10 @@ body {
     overflow: auto;
 }
 
+.carousel-indicators {
+    margin-bottom: -1.5%;
+}
+
 .carousel-indicators .active {
     width: 12px;
     height: 12px;
@@ -35,6 +39,19 @@ body {
     width: 10%;
 }
 
+.carousel-control.left {
+    margin-left: -10%;
+}
+
+.carousel-control.right {
+    margin-right: -10%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 ul li {
     color: gold;
 }
@@ -59,44 +76,6 @@ ul li {
     background: gold;
 }
 
-.link:link {
-    color: rgba(79, 161, 255, 1);
-    text-decoration: underline;
-}
-
-.link:visited {
-    color: rgba(79, 161, 255, 1);
-    text-decoration: underline;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-}
-
-.row {
-    margin: 0 auto;
-    display: table;
-}
-
-.col {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.bufferbefore {
-    padding-top: 20px;
-}
-
-.screenshot {
-    margin: 0 auto;
-    display: table;
-    width: 80%;
-}
-
 p, footer {
     padding: 20px;
     font-size: 16pt;
@@ -110,20 +89,9 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.piccaption {
-    color: white;
-    font-size: 70%;
-    text-align: center;
-}
-
-.centerimg {
-    margin: 0 auto;
-    display: table;
-    width: 80%;
-}
-
-.col-2 {
-    width: 50%;
+section {
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 table, th, td {
@@ -145,9 +113,69 @@ td.p {
     width: 80%;
 }
 
-@media (max-aspect-ratio: 4/5) {
-    .col-2 {
-        width: 100%;
-        display: block;
+#article-border, #footer-border {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+
+#article {
+    margin-top: 20px;
+}
+
+.text {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.toc-label {
+    text-align: left;
+}
+
+.table-of-contents {
+  background-color: #222;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-radius: 8px;
+  margin: auto;
+  max-width: 650px;
+}
+
+.table-of-contents ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.table-of-contents li {
+  color: gold;
+  margin: 1em 0;
+  font-size: 150%;
+  text-indent: -1.3em;
+  padding-left: 1.3em;
+}
+
+.table-of-contents a {
+  color: gold;
+  text-decoration: none;
+}
+
+.table-of-contents a:hover {
+  text-decoration: underline;
+}
+
+.top-margin {
+    margin-top: 50px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 125%;
+}
+
+@media (max-aspect-ratio: 5/5) {
+    .text {
+        font-size: 150%;
     }
 }
