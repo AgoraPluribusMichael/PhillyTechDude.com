@@ -1,14 +1,4 @@
 $(document).ready(function() {
-     $("head").append(
-        '<!-- Google tag (gtag.js) -->'+
-        '<script async src="https://www.googletagmanager.com/gtag/js?id=G-TR4TKL038J"></script>'+
-        '<script>'+
-        '  window.dataLayer = window.dataLayer || [];'+
-        '  function gtag(){dataLayer.push(arguments);}'+
-        "  gtag('js', new Date());"+
-        "  gtag('config', 'G-TR4TKL038J');"+
-        '</script>'
-    );
     var sections = document.getElementsByClassName("section");
     var tocBodyObj = document.getElementById("toc-body");
 
