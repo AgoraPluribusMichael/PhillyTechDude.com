@@ -40,9 +40,6 @@
     margin-bottom: 5px;
 
     transition: all 0.2s;
-    transition-webkit-: all 0.2s;
-    transitione-moz-: all 0.2s;
-    transition-o-: all 0.2s;
 }
 
 .menuButton:hover {
@@ -61,9 +58,6 @@
     margin-bottom: 5px;
 
     transition: all 0.2s;
-    transition-webkit-: all 0.2s;
-    transitione-moz-: all 0.2s;
-    transition-o-: all 0.2s;
 }
 
 
