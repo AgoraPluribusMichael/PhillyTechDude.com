@@ -86,6 +86,7 @@ p, footer {
 
 h1, h2, h3 {
   color: white;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -203,6 +204,10 @@ h1 {
 .info-text {
   text-align: left;
   font-size: 14pt;
+}
+
+b {
+  color: #00CCFF;
 }
 
 @media (max-aspect-ratio: 5/5) {
