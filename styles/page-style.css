@@ -84,7 +84,7 @@ p, footer {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: white;
   text-align: center;
 }
@@ -197,8 +197,12 @@ h1 {
   max-width: 650px;
 }
 
-.info-title {
+.info-title, .info-icon {
   font-size: 24pt;
+}
+
+.info-icon {
+  padding-top:20px;
 }
 
 .info-subtitle {
