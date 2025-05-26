@@ -170,12 +170,23 @@ h1 {
 }
 
 .top-margin {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .subtitle {
   text-align: center;
   font-size: 125%;
+}
+
+.info-summary-panel {
+  background-color: #222;
+  padding: 8pt;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin: auto;
+  max-width: 90%;
 }
 
 .info-panel {
@@ -186,8 +197,12 @@ h1 {
   max-width: 650px;
 }
 
-.info-heading {
+.info-title {
   font-size: 24pt;
+}
+
+.info-subtitle {
+  font-size: 20pt;
 }
 
 .info-formula {
