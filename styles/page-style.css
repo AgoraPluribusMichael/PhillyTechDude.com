@@ -150,7 +150,7 @@ td.p {
 }
 
 .table-of-contents li {
-  color: gold;
+  color: #00CCFF;
   margin: 1em 0;
   font-size: 16pt;
   text-indent: -1.3em;
@@ -158,7 +158,7 @@ td.p {
 }
 
 .table-of-contents a {
-  color: gold;
+  color: #00CCFF;
   text-decoration: none;
 }
 
@@ -207,7 +207,8 @@ h1 {
 }
 
 b {
-  color: #00CCFF;
+  color: gold;
+  font-weight: normal;
 }
 
 @media (max-aspect-ratio: 5/5) {

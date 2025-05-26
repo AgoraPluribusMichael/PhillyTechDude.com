@@ -83,11 +83,11 @@
 }
 
 a:link {
-  color: gold;
+  color: #00CCFF;
 }
 
 a:visited {
-  color: gold;
+  color: #00CCFF;
 }
 
 /* Modified from https://endurtech.com/css-icon-for-links-that-open-new-window-for-web-accessibility/ */
