@@ -1,32 +1,32 @@
 #article-border, #footer-border {
-	position: relative;
-	width: 100%;
-	padding: 10px;
+    position: relative;
+    width: 100%;
+    padding: 10px;
 }
 
 #article {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .carousel-control.left {
-	margin-left: -10%;
+    margin-left: -10%;
 }
 
 .carousel-control.right {
-	margin-right: -10%;
+    margin-right: -10%;
 }
 
 .carousel-indicators {
-	margin-bottom: -1.5%;
+    margin-bottom: -1.5%;
 }
 
 .text {
-	font-family: 'Montserrat';
-	color: white;
+    font-family: 'Montserrat';
+    color: white;
 }
 
 .toc-label {
-	text-align: left;
+    text-align: left;
 }
 
 .table-of-contents {
@@ -68,16 +68,16 @@ ul {
 }
 
 .top-margin {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 .subtitle {
-	text-align: center;
-	font-size: 125%;
+    text-align: center;
+    font-size: 125%;
 }
 
 @media (max-aspect-ratio: 5/5) {
-	.text {
-		font-size: 150%;
-	}
+    .text {
+        font-size: 150%;
+    }
 }

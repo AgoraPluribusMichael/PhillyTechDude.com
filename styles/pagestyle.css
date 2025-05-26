@@ -1,11 +1,11 @@
 body {
-	font-family: 'Montserrat';
-	background-color: #202020 !important;
+    font-family: 'Montserrat';
+    background-color: #202020 !important;
 }
 
 .content-area {
     margin-top: 10px;
-	background-color: #202020;
+    background-color: #202020;
     overflow: auto;
 }
 
@@ -21,8 +21,8 @@ body {
  }
  
 .carousel-control:focus {
-	color: gold;
-	opacity: 0.5;
+    color: gold;
+    opacity: 0.5;
  }
  
 .carousel-control:hover {
@@ -31,12 +31,12 @@ body {
 }
 
 .carousel-control {
-	background-image: none !important;
-	width: 10%;
+    background-image: none !important;
+    width: 10%;
 }
 
 ul li {
-	color: gold;
+    color: gold;
 }
 
 /* Scrollbar width */
@@ -60,12 +60,12 @@ ul li {
 }
 
 .link:link {
-	color: rgba(79, 161, 255, 1);
-	text-decoration: underline;
+    color: rgba(79, 161, 255, 1);
+    text-decoration: underline;
 }
 
 .link:visited {
-	color: rgba(79, 161, 255, 1);
+    color: rgba(79, 161, 255, 1);
     text-decoration: underline;
 }
 
@@ -78,64 +78,64 @@ ul li {
 }
 
 .row {
-	margin: 0 auto;
-	display: table;
+    margin: 0 auto;
+    display: table;
 }
 
 .col {
-	display: table-cell;
-	vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .bufferbefore {
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 .screenshot {
-	margin: 0 auto;
-	display: table;
-	width: 80%;
+    margin: 0 auto;
+    display: table;
+    width: 80%;
 }
 
 p, footer {
-	padding: 20px;
+    padding: 20px;
     font-size: 16pt;
     color: white;
     text-align: left;
-	margin: 0;
+    margin: 0;
 }
 
 h1, h2, h3 {
-	color: white;
-	text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .piccaption {
-	color: white;
-	font-size: 70%;
-	text-align: center;
+    color: white;
+    font-size: 70%;
+    text-align: center;
 }
 
 .centerimg {
-	margin: 0 auto;
-	display: table;
-	width: 80%;
+    margin: 0 auto;
+    display: table;
+    width: 80%;
 }
 
 .col-2 {
-	width: 50%;
+    width: 50%;
 }
 
 table, th, td {
-	color: white;
-	border: 0px;
-	margin-bottom: 20px;
-	padding:5px;
-	text-align: center;
+    color: white;
+    border: 0px;
+    margin-bottom: 20px;
+    padding:5px;
+    text-align: center;
 }
 
 td.p {
-	text-align: justify;
+    text-align: justify;
 }
 
 .panel {
@@ -146,8 +146,8 @@ td.p {
 }
 
 @media (max-aspect-ratio: 4/5) {
-	.col-2 {
-		width: 100%;
-		display: block;
-	}
+    .col-2 {
+        width: 100%;
+        display: block;
+    }
 }
