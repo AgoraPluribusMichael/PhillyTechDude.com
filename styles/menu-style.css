@@ -1,94 +1,94 @@
 #topbanner {
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
 }
 
 #topbar {
-    left: 0;
-    width: 100%;
-    display: block;
-    background-color: #282828;
-    height: 70px;
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    z-index: 1;
-    text-align: center;
+  left: 0;
+  width: 100%;
+  display: block;
+  background-color: #282828;
+  height: 70px;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
 }
 
 #nav {
-    float: none;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    overflow: auto;
-    white-space: nowrap;
-    padding: 0px;
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0px;
 }
 
 .menuButton {
-    display: inline-block;
-    color: gold;
-    text-align: center;
-    background-color: #404040;
-    
-    position: static;
-    padding: 10px 20px 10px 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  display: inline-block;
+  color: gold;
+  text-align: center;
+  background-color: #404040;
+  
+  position: static;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 
-    transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .menuButton:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
 
 .menuButtonSelected {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    background-color: rgb(151, 129, 0);
-    
-    position: static;
-    padding: 10px 20px 10px 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  background-color: rgb(151, 129, 0);
+  
+  position: static;
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 
-    transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 
 @media (max-aspect-ratio: 5/5) {
-    
+  
 }
 
 @media (max-width: 999px) {
-    .menuButton, .menuButtonSelected {
-        font-size: 150%;
-    }
+  .menuButton, .menuButtonSelected {
+    font-size: 150%;
+  }
 }
 
 @media (min-width: 1000px) {
-    .menuButton, .menuButtonSelected {
-        font-size: 200%;
-    }
+  .menuButton, .menuButtonSelected {
+    font-size: 200%;
+  }
 }
 
 @media (min-width: 2000px) {
-    .menuButton, .menuButtonSelected {
-        font-size: 250%;
-    }
+  .menuButton, .menuButtonSelected {
+    font-size: 250%;
+  }
 }
 
 a:link {
-    color: gold;
+  color: gold;
 }
 
 a:visited {
-    color: gold;
+  color: gold;
 }
 
 /* Modified from https://endurtech.com/css-icon-for-links-that-open-new-window-for-web-accessibility/ */

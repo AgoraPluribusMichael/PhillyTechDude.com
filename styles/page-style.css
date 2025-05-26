@@ -1,23 +1,23 @@
 body {
-    font-family: 'Montserrat';
-    background-color: #202020 !important;
+  font-family: 'Montserrat';
+  background-color: #202020 !important;
 }
 
 .content-area {
-    margin-top: 10px;
-    background-color: #202020;
-    overflow: auto;
+  margin-top: 10px;
+  background-color: #202020;
+  overflow: auto;
 }
 
 .carousel-indicators {
-    margin-bottom: -1.5%;
+  margin-bottom: -1.5%;
 }
 
 .carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: rgb(151, 129, 0);;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: rgb(151, 129, 0);;
 }
 
 #product-image-carousel a {
@@ -25,8 +25,8 @@ body {
  }
  
 .carousel-control:focus {
-    color: gold;
-    opacity: 0.5;
+  color: gold;
+  opacity: 0.5;
  }
  
 .carousel-control:hover {
@@ -35,16 +35,16 @@ body {
 }
 
 .carousel-control {
-    background-image: none !important;
-    width: 10%;
+  background-image: none !important;
+  width: 10%;
 }
 
 .carousel-control.left {
-    margin-left: -10%;
+  margin-left: -10%;
 }
 
 .carousel-control.right {
-    margin-right: -10%;
+  margin-right: -10%;
 }
 
 ul {
@@ -53,40 +53,40 @@ ul {
 }
 
 ul li {
-    color: gold;
+  color: gold;
 }
 
 /* Scrollbar width */
 ::-webkit-scrollbar {
-    width: 15px;
+  width: 15px;
 }
 
 /* Scrollbar Track */
 ::-webkit-scrollbar-track {
-    background: #505050;
+  background: #505050;
 }
 
 /* Scrollbar Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgb(151, 129, 0);
+  background: rgb(151, 129, 0);
 }
 
 /* Scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: gold;
+  background: gold;
 }
 
 p, footer {
-    padding: 20px;
-    font-size: 16pt;
-    color: white;
-    text-align: left;
-    margin: 0;
+  padding: 20px;
+  font-size: 16pt;
+  color: white;
+  text-align: left;
+  margin: 0;
 }
 
 h1, h2, h3 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 section {
@@ -95,41 +95,41 @@ section {
 }
 
 table, th, td {
-    color: white;
-    border: 0px;
-    margin-bottom: 20px;
-    padding:5px;
-    text-align: center;
+  color: white;
+  border: 0px;
+  margin-bottom: 20px;
+  padding:5px;
+  text-align: center;
 }
 
 td.p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .panel {
-    background-color: #303030;
-    border-color: #303030;
-    margin-left: 10%;
-    width: 80%;
+  background-color: #303030;
+  border-color: #303030;
+  margin-left: 10%;
+  width: 80%;
 }
 
 #article-border, #footer-border {
-    position: relative;
-    width: 100%;
-    padding: 10px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
 }
 
 #article {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .text {
-    font-family: 'Montserrat';
-    color: white;
+  font-family: 'Montserrat';
+  color: white;
 }
 
 .toc-label {
-    text-align: left;
+  text-align: left;
 }
 
 .table-of-contents {
@@ -151,7 +151,7 @@ td.p {
 .table-of-contents li {
   color: gold;
   margin: 1em 0;
-  font-size: 150%;
+  font-size: 16pt;
   text-indent: -1.3em;
   padding-left: 1.3em;
 }
@@ -166,20 +166,20 @@ td.p {
 }
 
 h1 {
-    margin-top: 40px !important;
+  margin-top: 40px !important;
 }
 
 .top-margin {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .subtitle {
-    text-align: center;
-    font-size: 125%;
+  text-align: center;
+  font-size: 125%;
 }
 
 @media (max-aspect-ratio: 5/5) {
-    .text {
-        font-size: 150%;
-    }
+  .text {
+    font-size: 150%;
+  }
 }
