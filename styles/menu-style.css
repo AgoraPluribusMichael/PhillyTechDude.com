@@ -36,8 +36,7 @@
   
   position: static;
   padding: 10px 20px 10px 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0px 5px 0px;
 
   transition: all 0.2s;
 }
