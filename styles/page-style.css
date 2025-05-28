@@ -230,6 +230,23 @@ b {
   font-weight: normal;
 }
 
+table {
+  text-align: center;
+  margin: auto;
+}
+
+table, th, td {
+  font-family: Courier;
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: #222;
+}
+
+.table-title {
+  padding-bottom: 4pt;
+  text-align: center;
+}
+
 @media (max-aspect-ratio: 5/5) {
   .text {
     font-size: 150%;

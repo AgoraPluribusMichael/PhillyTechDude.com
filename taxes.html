@@ -153,10 +153,10 @@
           </section>
 
           <section>
-            <h2 class="section top-margin" id="propserity-dividend">The Prosperity Dividend</h2>
-            <h3>A Quarterly Robin-Hood-Powered Stimulus</h3>
+            <h2 class="section top-margin" id="propserity-dividend">The Robin Hood Tax Credit</h2>
+            <h3>A Bold Step Towards Tax Justice — For Everyone, Not Just the Wealthy</h3>
             <p>
-              The specific policy I'm envisioning is as follows: Every quarter, we reset the wealth basis of an individual's net worth. If the net worth increases over the quarter, the appreciation would be taxed at the wealth gains tax rate. If the net worth decreases, there would be no tax applied and no tax write-offs for realizing a wealth loss.
+              The specific policy I'm envisioning is as follows: Twice a month, we reset the wealth basis of all those in the top 1%. If the net worth increases, the appreciation would be taxed at the wealth gains tax rate. If the net worth decreases, there would be no tax applied and no tax write-offs for realizing a wealth loss. We would use <b>W-47 forms</b> to manage compliance with the tax. (Why 47? Ask Mitt Romney 🙂).
             </p>
             <p>
               Of course, this means that the taxes will only be applied if the rich get richer. So for the cynics who think they'll just avoid the tax, I'll say this: What if the easiest way for the wealth of the top 1% to decrease is for the wealth to actually trickle down? And if it doesn't trickle down, then we can use this wealth gains tax to force it to. <b>The only way for a wealth gains tax to fail to produce tax revenue in the long run would be for a vast majority of all wealthy Americans to fail to get richer or break the law.</b> And not only are rich people <i>really good</i> at getting richer (even in the wake of a once-in-a-century global pandemic); they also would probably prefer to pay taxes that they can easily afford instead of risking a 6-month prison sentence that would threaten their lavish lifestyle.
@@ -165,22 +165,22 @@
               It would be beneficial to tie the wealth gains tax rate to the inflation rate (Consumer Price Index) to combat price gouging. I was thinking we set it to either 15% (to match the current long-term capital gains rate) or 5 times the quarterly annualized CPI, whichever one is larger. In other words, <b>I propose a minimum wealth gains tax of 15% on the top 1%, but have the rate increase in the case that inflation exceeds 3%.</b>
             </p>
             <p>
-              In theory, we could increase revenues even more by making the dividend monthly instead of quarterly, which would increase the number of taxable opportunities by increasing the granularity of wealth basis resets. However, it may be easier to start with a quarterly schedule that the IRS is used to operating on instead of requiring additional administrative costs. In either case, we would use <b>W-47 forms</b> to manage compliance with the tax. (Why 47? Ask Mitt Romney 🙂)
+              The tax revenue from the wealth gains taxes will fund an instantaneous tax credit to be applied against the income taxes for workers. For most W-4 employees, the credit could be administered through a <b>W-53 form</b> to directly increase take-home pay by reducing federal income tax withholding. There would have to be separate accomodations made for self-employed individuals.
             </p>
             <p>
-              Also, with W-47 wealth being more volatile than W-4 income, it would make more sense to distribute stimulus checks to the bottom 99% on a quarterly basis instead of enacting an income tax cut or tax credit. In this way, we can treat the wealth of the top 1% as a shared national endowment, where the bottom 99% can reinvest the dividends into their own lives.
+              Based on <a href="https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/" target="_blank">quarterly data on the household wealth distribution from the Federal Reserve</a>, it appears that the wealth of the top 1% generally increases quarter-over-quarter, but can briefly decrease during economic downturns. So as long as this tax credit is tied to wealth <u>gains</u> taxes, and not wealth taxes, there is some level of volatility (although tying the tax rate to the inflation rate might help during extended periods of high inflation).
             </p>
             <p>
-              As for who is eligible to receive the dividend, I would suggest the ~270 million individuals who are in the bottom 99% for net worth and are also not beneficiaries of Social Security. Maybe the ones going to children could even be deposited into their <a href="social_security.html#hsa-expansion" target="_blank">Health Savings Accounts</a>.
+              I coded a quick simulation in Python and found that there could be a significant amount of annual tax relief, assuming a 15% base rate that increases during high inflation (as defined above) and 150 million tax returns filed. For years with high inflation, I assumed a 4% inflation rate for 2008, a 5% inflation rate for 2021, and an 8% inflation rate for 2022.
             </p>
-            <p>
-              Based on <a href="https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/" target="_blank">quarterly data on the household wealth distribution from the Federal Reserve</a>, it appears that the wealth of the top 1% generally increases quarter-over-quarter, but can briefly decrease during economic downturns. So as long as the Prosperity Dividend is tied to wealth <u>gains</u> taxes, and not wealth taxes, it doesn't do the best job of acting like a security net (although tying the tax rate to the inflation rate might help during extended periods of high inflation).
-            </p>
-            <p>
-              I coded a quick simulation in Python that found that the dividend payouts would be in the ballpark of $0 - $1,000, based on the wealth distribution data from the Federal Reserve, and assuming a flat 15% wealth gains rate, a population of 340 million, and 70 million Social Security beneficiaries.
-            </p>
+            <p class="table-title">Simulated Annual Robin Hood Tax Credits Per Worker</p>
+            <table>
+              <tr><td style="font-weight: bold;">Year</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td><td>2024</td></tr>
+<tr><td style="font-weight: bold;">Tax Relief</td><td>$1552</td><td>$1814</td><td>$1162</td><td>$0</td><td>$1093</td><td>$1899</td><td>$1213</td><td>$1778</td><td>$2588</td><td>$2378</td><td>$1317</td><td>$1536</td><td>$2678</td><td>$1225</td><td>$4290</td><td>$7597</td><td>$6077</td><td>$1240</td><td>$4772</td><td>$4975</td></tr>
+
+            </table>
             <p style="text-align: center">
-              <a href="docs/prosperity_dividend_sim.zip" target="_blank"><img src="images/zip_icon.svg" style="width:2.5em; padding:10px"/>My quick back-of-the-napkin Python simulation (zip file)</a>
+              <a href="docs/robin_hood_tax_sim.zip" target="_blank"><img src="images/zip_icon.svg" style="width:2.5em; padding:10px"/>My quick back-of-the-napkin Python simulation (zip file)</a>
             </p>
           </section>
 
