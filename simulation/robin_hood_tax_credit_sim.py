@@ -1,6 +1,8 @@
 import json
 
-NUM_WORKERS = 150_000_000
+# https://www.bls.gov/news.release/empsit.t01.htm
+NUM_WORKERS = 170_000_000
+
 BASE_TAX_RATE = 0.15
 
 HIGH_INFLATION_DICT = {
@@ -58,8 +60,9 @@ if __name__ == "__main__":
                     last_net_worth = curr_net_worth
                     curr_net_worth = 0
                     date = None
-    with open("1-tax_revenue_dict.json", 'w') as json_file:
-        json_file.write(json.dumps(tax_revenue_dict, indent=2))
+    with open("1-tax_revenue_dict.csv", 'w') as csv_file:
+        for quarter in sorted(tax_revenue_dict.keys()):
+            csv_file.write(f"{quarter},{tax_revenue_dict[quarter]}\n")
 
     # Step 2: Calculate annual tax relief, assuming tax relief is uniformly applied across all tax returns
     annual_tax_relief_dict = dict()
@@ -73,7 +76,8 @@ if __name__ == "__main__":
             year = int(curr_date.split(':')[0])
             annual_tax_relief_dict[year] = round(annual_tax_revenue / NUM_WORKERS, 2)
             annual_tax_revenue = 0
-    with open("2-annual_tax_relief.json", 'w') as json_file:
-        json_file.write(json.dumps(annual_tax_relief_dict, indent=2))
+    with open("2-annual_tax_relief.csv", 'w') as csv_file:
+        for year in sorted(annual_tax_relief_dict.keys()):
+            csv_file.write(f"{year},{annual_tax_relief_dict[year]}\n")
 
     generate_html_table(annual_tax_relief_dict)
