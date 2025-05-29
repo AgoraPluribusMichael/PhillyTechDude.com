@@ -8,21 +8,9 @@ BASE_TAX_RATE = 0.15
 HIGH_INFLATION_DICT = {
     2008: 0.04,
     2021: 0.05,
-    2022: 0.08
+    2022: 0.08,
+    2023: 0.04
 }
-
-def generate_html_table(tax_relief_dict, min_year=2005):
-    with open("tax_relief_table.html", "w") as html_file:
-        html_file.write(f"<tr><td style=\"font-weight: bold;\">Year</td>")
-        for year in sorted(tax_relief_dict.keys()):
-            if year >= min_year:
-                html_file.write(f"<td>{year}</td>")
-        html_file.write(f"</tr>\n")
-        html_file.write(f"<tr><td style=\"font-weight: bold;\">Tax Relief</td>")
-        for year in sorted(tax_relief_dict.keys()):
-            if year >= min_year:
-                html_file.write(f"<td>${int(tax_relief_dict[year])}</td>")
-        html_file.write(f"</tr>\n")
 
 
 if __name__ == "__main__":
@@ -50,7 +38,7 @@ if __name__ == "__main__":
                     delta_net_worth = curr_net_worth - last_net_worth
                     year = int(date.split(":")[0])
                     if year in HIGH_INFLATION_DICT:
-                        tax_rate = 3 * HIGH_INFLATION_DICT[year]
+                        tax_rate = 5 * HIGH_INFLATION_DICT[year]
                     else:
                         tax_rate = 0.15
                     tax_revenue = max(0.0, delta_net_worth * tax_rate)
@@ -79,5 +67,3 @@ if __name__ == "__main__":
     with open("2-annual_tax_relief.csv", 'w') as csv_file:
         for year in sorted(annual_tax_relief_dict.keys()):
             csv_file.write(f"{year},{annual_tax_relief_dict[year]}\n")
-
-    generate_html_table(annual_tax_relief_dict)
