@@ -48,6 +48,11 @@ body {
 }
 
 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-unordered {
   list-style: inside;
   padding-left: 20%;
   padding-right: 20%;
@@ -56,8 +61,7 @@ ul {
   margin: 0;
 }
 
-ul li {
-  color: gold;
+.list-item {
   text-indent: -1em;
   padding-left: 1em;
 }
