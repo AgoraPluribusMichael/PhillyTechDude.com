@@ -98,6 +98,8 @@ p a:visited {
 
 @media (max-width: 768px) {
   #nav {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     position: static;
     transform: none;
     display: flex;
