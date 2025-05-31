@@ -1,11 +1,10 @@
 body {
   font-family: 'Montserrat';
-  background-color: #202020 !important;
+  background-color: black;
 }
 
 .content-area {
-  margin-top: 10px;
-  background-color: #202020;
+  background-color: black;
   overflow: auto;
 }
 
@@ -66,6 +65,10 @@ p, footer {
   margin: 0;
 }
 
+footer h2 {
+  margin-top: 0;
+}
+
 p {
   padding: 20px;
 }
@@ -89,7 +92,7 @@ div .external-download:visited {
 
 .external-download {
   font-size: 16pt;
-  background-color: #222222;
+  background-color: #101010;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -106,24 +109,8 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-.tldr {
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-.tldr p {
-	padding-top: 0;
-}
-
-.section-top {
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-@media (max-width: 768px) {
-  .section-top {
-    padding: 0;
-  }
+.no-padding-top {
+  padding-top: 0;
 }
 
 table, th, td {
@@ -139,25 +126,25 @@ td.p {
 }
 
 .panel {
+  font-family: 'Montserrat';
+  color: white;
   background-color: #303030;
   border-color: #303030;
   margin-left: 10%;
   width: 80%;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#copyright {
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 #article-border, #footer-border {
   position: relative;
   width: 100%;
-  padding: 10px;
-}
-
-#article {
-  margin-top: 20px;
-}
-
-.text {
-  font-family: 'Montserrat';
-  color: white;
 }
 
 #toc {
@@ -174,7 +161,7 @@ td.p {
 }
 
 .table-of-contents {
-  background-color: #222;
+  background-color: #303030;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   padding-left: 3em;
@@ -206,21 +193,13 @@ td.p {
   text-decoration: underline;
 }
 
-h1 {
-  margin-top: 40px !important;
-}
-
-.top-margin {
-  margin-top: 40px;
-}
-
 .subtitle {
   text-align: center;
   font-size: 12pt;
 }
 
 .info-panel {
-  background-color: #222222;
+  background-color: #101010;
   padding: 8pt;
   border-radius: 8px;
   margin: auto;
@@ -264,7 +243,7 @@ table, th, td {
   font-family: Courier;
   border: 1px solid white;
   border-collapse: collapse;
-  background-color: #222;
+  background-color: black;
 }
 
 .table-title {
@@ -310,17 +289,11 @@ hr {
 }
 
 #copyright {
+  background-color: black !important;
+  border-style: none;
   text-align: center;
   color: white;
   font-size: 16pt;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
-@media (max-aspect-ratio: 5/5) {
-  .text {
-    font-size: 150%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -330,6 +303,10 @@ hr {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    padding: 8pt;
+  }
+
+  #copyright {
     padding: 8pt;
   }
 
@@ -427,6 +404,5 @@ hr {
     text-align: center;
     color: white;
     font-size: 10pt;
-    padding: 12px;
   }
 }

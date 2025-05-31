@@ -1,12 +1,12 @@
 $(document).ready(function() {
-    var sections = document.getElementsByClassName("section");
+    var sectionHeaders = document.getElementsByClassName("section-header");
     var tocBodyObj = document.getElementById("toc-body");
 
     var maxWidth = 0;
 
-    for (var i=0; i < sections.length; i++) {
-        var section = sections[i];
-        var id = section.id;
+    for (var i=0; i < sectionHeaders.length; i++) {
+        var header = sectionHeaders[i];
+        var id = header.id;
         var label = document.getElementById(id).innerText;
 
         var liObj = document.createElement("li");

@@ -13,19 +13,14 @@
   left: 0;
   width: 100%;
   display: block;
-  background-color: #282828;
+  background-color: black;
   list-style-type: none;
   padding: 0;
+  margin: 0;
   overflow: visible;
   z-index: 1;
   text-align: center;
-}
-
-#nav {
   float: none;
-  margin: auto;
-  overflow: auto;
-  padding: 0px;
 }
 
 .menuButton {
@@ -37,7 +32,7 @@
   
   position: static;
   padding: 10px 20px 10px 20px;
-  margin: 5px 0px 5px 0px;
+  margin: 0;
 
   transition: all 0.2s;
 }
@@ -101,7 +96,7 @@ p a:visited {
 }
 
 @media (max-width: 768px) {
-  #nav {
+  #topbar {
     position: static;
     transform: none;
     display: flex;
