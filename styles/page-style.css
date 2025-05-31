@@ -250,7 +250,7 @@ hr {
   display: block
 }
 
-#backToTop {
+#back-to-top {
   position: fixed;
   bottom: 20px;
   left: 50%;
@@ -270,7 +270,7 @@ hr {
   transition: opacity 0.3s;
 }
 
-#backToTop:hover {
+#back-to-top:hover {
   background-color: #585858;
   color: gold;
   text-decoration: none;
@@ -379,7 +379,7 @@ hr {
     font-family: Cambria;
   }
 
-  #backToTop {
+  #back-to-top {
     font-size: 10pt;
   }
 
