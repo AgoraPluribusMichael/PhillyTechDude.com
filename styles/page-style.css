@@ -9,6 +9,7 @@ body {
 }
 
 .video-container {
+  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -386,5 +387,9 @@ hr {
     font-size: 10pt;
     padding-top: 12px;
     padding-bottom: 80px;
+  }
+
+  .video-container {
+    padding: 12px;
   }
 }
