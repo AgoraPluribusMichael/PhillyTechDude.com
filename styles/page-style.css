@@ -273,7 +273,15 @@ hr {
     padding: 12px;
   }
 
-  h1, h2, h3 {
+  h1 {
+    font-size: 16pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+  }
+
+  h3, h4 {
     font-size: 12pt;
   }
 
