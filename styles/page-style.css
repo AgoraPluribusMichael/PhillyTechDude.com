@@ -70,6 +70,31 @@ p {
   padding: 20px;
 }
 
+.external-download-container {
+  text-align: center;
+  padding: 20px;
+}
+
+div a {
+    color: #00CCFF;
+}
+
+div a:hover {
+    color: #00CCFF;
+}
+
+div a:visited {
+    color: #00CCFF;
+}
+
+.external-download {
+  font-size: 16pt;
+  background-color: #222222;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
 footer {
   padding-top: 20px;
   padding-left: 20px;
@@ -242,7 +267,7 @@ hr {
   margin-bottom: 20px;
 }
 
-.tax-graph {
+.graph-image {
   width: 50%;
   padding-top: 40px;
   margin: auto;
@@ -259,7 +284,7 @@ hr {
   border: solid;
   border-color: #282828;
   border-width: 2px;
-  border-radius: 5%;
+  border-radius: 8px;
   font-size: 16pt;
   padding: 10px 10px;
   cursor: pointer;
@@ -361,7 +386,7 @@ hr {
     font-size: 10pt;
   }
 
-  .tax-graph {
+  .graph-image {
     width: 90%;
     padding-top: 40px;
     margin: auto;
