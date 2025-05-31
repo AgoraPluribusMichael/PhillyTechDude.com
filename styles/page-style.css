@@ -182,7 +182,7 @@ article {
 
 .subtitle {
   text-align: center;
-  font-size: 12pt;
+  font-size: 14pt;
   padding-top: 12px;
 }
 
@@ -246,6 +246,12 @@ hr {
 
 .graph-image {
   width: 50%;
+  margin: auto;
+  display: block
+}
+
+.graph-image-wide {
+  width: 75%;
   margin: auto;
   display: block
 }
@@ -363,7 +369,7 @@ hr {
     padding: 12px;
   }
 
-  .graph-image {
+  .graph-image, .graph-image-wide {
     width: 90%;
     margin: auto;
     display: block
@@ -371,7 +377,7 @@ hr {
 
   .subtitle {
     text-align: center;
-    font-size: 8pt;
+    font-size: 10pt;
     padding-top: 8px;
   }
 
