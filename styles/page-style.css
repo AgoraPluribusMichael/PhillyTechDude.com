@@ -142,10 +142,6 @@ td.p {
   width: 100%;
 }
 
-#toc {
-  margin-top: 20pt;
-}
-
 #toc-body, #toc-body li {
   font-size: 16pt;
 }
@@ -393,5 +389,10 @@ hr {
     text-align: center;
     color: white;
     font-size: 10pt;
+  }
+
+  .table-of-contents {
+    margin-left: 10%;
+    width: 80%;
   }
 }
