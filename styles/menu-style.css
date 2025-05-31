@@ -109,7 +109,7 @@ p a:visited {
   .menuButton,
   .menuButtonSelected {
     font-size: 125%;
-    margin: 4px;
+    margin: 0;
     width: 100%;
     box-sizing: border-box;
   }
