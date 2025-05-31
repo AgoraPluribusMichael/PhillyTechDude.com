@@ -32,6 +32,7 @@
   display: inline-block;
   color: gold;
   text-align: center;
+  text-decoration: none;
   background-color: #404040;
   
   position: static;
@@ -44,12 +45,14 @@
 .menuButton:hover {
   background-color: #585858;
   color: gold;
+  text-decoration: none;
 }
 
 .menuButtonSelected {
   display: inline-block;
   color: white;
   text-align: center;
+  text-decoration: none;
   background-color: rgb(151, 129, 0);
   
   position: static;
@@ -60,11 +63,11 @@
   transition: all 0.2s;
 }
 
-a:link {
+p a:link {
   color: #00CCFF;
 }
 
-a:visited {
+p a:visited {
   color: #00CCFF;
 }
 
