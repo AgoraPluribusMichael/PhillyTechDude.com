@@ -9,43 +9,25 @@ body {
   overflow: auto;
 }
 
-.carousel-indicators {
-  margin-bottom: -1.5%;
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 35%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 800px;  /* Optional: limit max width */
+  margin: 0 auto;    /* Center it */
 }
 
-.carousel-indicators .active {
-  width: 12px;
-  height: 12px;
-  margin: 0;
-  background-color: rgb(151, 129, 0);;
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
-#product-image-carousel a {
-   outline: none !important; /* this will remove the outline when we click the anchor tag */
- }
- 
-.carousel-control:focus {
-  color: gold;
-  opacity: 0.5;
- }
- 
-.carousel-control:hover {
-   color: white !important;
-   opacity: 0.75 !important;
-}
-
-.carousel-control {
-  background-image: none !important;
-  width: 10%;
-}
-
-.carousel-control.left {
-  margin-left: -10%;
-}
-
-.carousel-control.right {
-  margin-right: -10%;
-}
 
 ul {
   list-style: none;
