@@ -1,14 +1,12 @@
 #topbanner {
-  background-position: center;
-  background-size: cover;
-  height: 500px;
   width: 100%;
+  overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  #topbanner {
-    display: none;
-  }
+#topbanner img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 #topbar {
@@ -111,9 +109,8 @@ p a:visited {
   .menuButton,
   .menuButtonSelected {
     font-size: 125%;
-    flex: 1 1 45%;
     margin: 4px;
-    min-width: 120px;
+    width: 100%;
     box-sizing: border-box;
   }
 }
