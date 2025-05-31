@@ -257,6 +257,12 @@ hr {
   text-decoration: none;
 }
 
+#copyright {
+  text-align: center;
+  color: white;
+  font-size: 16pt;
+}
+
 @media (max-aspect-ratio: 5/5) {
   .text {
     font-size: 150%;
@@ -335,13 +341,19 @@ hr {
     font-size: 12pt;
     font-family: Cambria;
   }
-
+    
   .info-formula-desc {
     font-size: 10pt;
     font-family: Cambria;
   }
 
   #backToTop {
+    font-size: 10pt;
+  }
+
+  #copyright {
+    text-align: center;
+    color: white;
     font-size: 10pt;
   }
 }
