@@ -106,6 +106,15 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+.tldr {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.tldr p {
+	padding-top: 0;
+}
+
 .section-top {
 	padding-right: 20px;
 	padding-left: 20px;
@@ -263,8 +272,8 @@ table, th, td {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .graph-image {
