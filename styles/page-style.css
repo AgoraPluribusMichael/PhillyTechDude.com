@@ -18,7 +18,6 @@ body {
   aspect-ratio: 16 / 9;
 }
 
-
 ul {
   list-style: none;
   padding-left: 0;
@@ -173,13 +172,6 @@ h1 {
   font-size: 12pt;
 }
 
-.info-summary-panel {
-  padding: 16pt;
-  border-radius: 8px;
-  margin: auto;
-  max-width: 90%;
-}
-
 .info-panel {
   background-color: #222222;
   padding: 8pt;
@@ -188,17 +180,8 @@ h1 {
   max-width: 650px;
 }
 
-.info-title, .info-icon {
+.info-title {
   font-size: 24pt;
-}
-
-.info-icon {
-  padding-top: 20px;
-  font-size: 24pt;
-}
-
-.info-subtitle {
-  font-size: 20pt;
 }
 
 .info-formula {
@@ -209,11 +192,6 @@ h1 {
 .info-formula-desc {
   font-size: 12pt;
   font-family: Cambria;
-}
-
-.info-text {
-  text-align: left;
-  font-size: 14pt;
 }
 
 b {
@@ -272,13 +250,7 @@ hr {
     font-size: 10pt;
   }
 
-  .info-text {
-    font-size: 10pt;
-  }
-
-  .info-title,
-  .info-icon,
-  .info-subtitle {
+  .info-title {
     font-size: 12pt;
   }
 
