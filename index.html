@@ -76,12 +76,14 @@
             While I'm a life-long Democrat, I fully believe that it is possible to learn something from just about anyone. And for the longest time, I never understood this video from former Navy SEAL Jocko Willink: "Good."
           </p>
           <div class="video-container">
-            <iframe id="jocko-willink-good-video-iframe" src="https://www.youtube.com/embed/IdTMDpizis8?color=white&fs=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin:auto"></iframe>
+            <iframe id="jocko-willink-good-video-iframe" src="https://www.youtube.com/embed/IdTMDpizis8?color=white&fs=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <script>
-              var tocBody = document.getElementById("toc-body");
-              var tocWidth = tocBody.offsetWidth;
-              var jockoVideo = document.getElementById("jocko-willink-good-video-iframe");
-              jockoVideo.style = "width: " + tocWidth + ";"
+              $(document).ready(function() {
+                var tocBody = document.getElementById("toc-body");
+                var tocWidth = tocBody.offsetWidth;
+                var jockoVideo = document.getElementById("jocko-willink-good-video-iframe");
+                jockoVideo.width = tocWidth;
+              });
             </script>
           </div>
           <p>
