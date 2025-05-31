@@ -253,13 +253,14 @@ hr {
 #backToTop {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
-  background-color: #404040;
+  background-color: #101010;
   color: white;
   border: solid;
-  border-color: #282828;
-  border-width: 2px;
+  border-color: #303030;
+  border-width: 3px;
   border-radius: 8px;
   font-size: 16pt;
   padding: 10px 10px;
