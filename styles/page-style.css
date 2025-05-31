@@ -236,6 +236,7 @@ h1 {
 }
   
 .info-text {
+  padding-top: 20px !important;
   font-size: 16pt;
 }
 
@@ -347,6 +348,7 @@ hr {
   }
   
   .info-text {
+    padding-top: 8pt !important;
     font-size: 10pt;
   }
 
