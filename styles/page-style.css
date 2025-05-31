@@ -285,12 +285,14 @@ hr {
 
 @media (hover: none) {
   #back-to-top:hover {
-    background-color: inherit;
+    background-color: #303030;
+    color: white;
+    text-decoration: none;
   }
 
   #back-to-top:active {
-    background-color: #303030;
-    color: white;
+    background-color: #585858;
+    color: gold;
     text-decoration: none;
   }
 }
