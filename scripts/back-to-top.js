@@ -11,8 +11,8 @@ $(document).ready(function() {
     });
 });
 
-// Show button after scrolling down 300px
+// Show button after scrolling down 800px
 window.onscroll = function() {
     const btn = document.getElementById("backToTop");
-    btn.style.display = window.scrollY > 300 ? "block" : "none";
+    btn.style.display = window.scrollY > 800 ? "block" : "none";
 };
