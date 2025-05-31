@@ -19,5 +19,5 @@ $(document).ready(function() {
 // Show button after scrolling down 800px
 function showButton() {
     const btn = document.getElementById("back-to-top");
-    btn.style.display = window.scrollY > 800 ? "block" : "none";
+    btn.style.display = window.scrollY > 600 ? "block" : "none";
 }

@@ -128,11 +128,6 @@ td.p {
   margin-bottom: 30px;
 }
 
-#copyright {
-  padding: 20px;
-  margin-bottom: 30px;
-}
-
 article {
   position: relative;
   width: 100%;
@@ -282,6 +277,8 @@ hr {
   text-align: center;
   color: white;
   font-size: 16pt;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 768px) {
@@ -387,5 +384,7 @@ hr {
     text-align: center;
     color: white;
     font-size: 10pt;
+    padding-top: 12px;
+    padding-bottom: 80px;
   }
 }
