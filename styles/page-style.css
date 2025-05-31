@@ -261,17 +261,17 @@ hr {
   .list-unordered {
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 14pt;
+    font-size: 8pt;
   }
 
   .info-text {
-    font-size: 13pt;
+    font-size: 8pt;
   }
 
   .info-title,
   .info-icon,
   .info-subtitle {
-    font-size: 18pt;
+    font-size: 12pt;
   }
 
   .table-of-contents {
@@ -285,15 +285,11 @@ hr {
   }
 
   p, footer {
-    font-size: 14pt;
+    font-size: 8pt;
     padding: 12px;
   }
 
   h1, h2, h3 {
-    font-size: 20pt;
+    font-size: 12pt;
   }
-}
-
-html {
-  font-size: calc(14px + 0.3vw);
 }
