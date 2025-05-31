@@ -58,15 +58,11 @@ ul {
   background: gold;
 }
 
-p, footer {
+p {
   font-size: 16pt;
   color: white;
   text-align: left;
   margin: 0;
-}
-
-footer h2 {
-  margin-top: 0;
 }
 
 p {
@@ -137,7 +133,7 @@ td.p {
   margin-bottom: 30px;
 }
 
-#article-border, #footer-border {
+#article-border {
   position: relative;
   width: 100%;
 }
@@ -331,7 +327,7 @@ hr {
     word-break: break-word;
   }
 
-  p, footer {
+  p {
     font-size: 10pt;
   }
 
