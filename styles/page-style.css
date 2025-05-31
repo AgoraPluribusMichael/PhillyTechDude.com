@@ -243,6 +243,13 @@ hr {
   margin-bottom: 20px;
 }
 
+.tax-graph {
+  width: 50%;
+  padding-top: 40px;
+  margin: auto;
+  display: block
+}
+
 @media (max-aspect-ratio: 5/5) {
   .text {
     font-size: 150%;
@@ -297,5 +304,12 @@ hr {
   .toc-label {
     text-align: left;
     font-size: 10pt;
+  }
+
+  .tax-graph {
+    width: 90%;
+    padding-top: 40px;
+    margin: auto;
+    display: block
   }
 }
