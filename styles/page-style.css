@@ -188,6 +188,14 @@ h1 {
   font-size: 24pt;
 }
 
+.info-subtitle {
+  font-size: 18pt;
+}
+  
+.info-text {
+  font-size: 16pt;
+}
+
 .info-formula {
   font-size: 20pt;
   font-family: Cambria;
@@ -287,7 +295,15 @@ hr {
   }
 
   .info-title {
+    font-size: 14pt;
+  }
+  
+  .info-subtitle {
     font-size: 12pt;
+  }
+  
+  .info-text {
+    font-size: 10pt;
   }
 
   .table-of-contents {
