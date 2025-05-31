@@ -43,17 +43,23 @@
 }
 
 .menuButton:hover {
-  background-color: #585858;
+  background-color: #545454;
+  color: gold;
+  text-decoration: none;
+}
+
+.menuButtonSelected:hover {
+  background-color: #686868 !important;
   color: gold;
   text-decoration: none;
 }
 
 .menuButtonSelected {
   display: inline-block;
-  color: white;
+  color: gold;
   text-align: center;
   text-decoration: none;
-  background-color: rgb(151, 129, 0);
+  background-color: #686868;
   
   position: static;
   padding: 10px 20px 10px 20px;
