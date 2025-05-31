@@ -124,6 +124,7 @@ td.p {
 
 .toc-label {
   text-align: left;
+  font-size: 16pt;
 }
 
 .table-of-contents {
@@ -261,11 +262,11 @@ hr {
   .list-unordered {
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 8pt;
+    font-size: 10pt;
   }
 
   .info-text {
-    font-size: 8pt;
+    font-size: 10pt;
   }
 
   .info-title,
@@ -285,11 +286,16 @@ hr {
   }
 
   p, footer {
-    font-size: 8pt;
+    font-size: 10pt;
     padding: 12px;
   }
 
   h1, h2, h3 {
     font-size: 12pt;
+  }
+
+  .toc-label {
+    text-align: left;
+    font-size: 10pt;
   }
 }
