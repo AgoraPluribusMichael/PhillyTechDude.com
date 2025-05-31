@@ -283,6 +283,18 @@ hr {
   text-decoration: none;
 }
 
+@media (hover: none) {
+  #back-to-top:hover {
+    background-color: inherit;
+  }
+
+  #back-to-top:active {
+    background-color: #585858;
+    color: gold;
+    text-decoration: none;
+  }
+}
+
 #copyright {
   background-color: black !important;
   border-style: none;
