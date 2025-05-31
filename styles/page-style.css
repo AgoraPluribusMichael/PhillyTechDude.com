@@ -75,15 +75,15 @@ p {
   padding: 20px;
 }
 
-div a {
+div .external-download {
     color: #00CCFF;
 }
 
-div a:hover {
+div .external-download:hover {
     color: #00CCFF;
 }
 
-div a:visited {
+div .external-download:visited {
     color: #00CCFF;
 }
 
