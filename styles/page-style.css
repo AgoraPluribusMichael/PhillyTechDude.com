@@ -176,9 +176,14 @@ article {
   text-decoration: underline;
 }
 
+.figure-container {
+  padding: 20px;
+}
+
 .subtitle {
   text-align: center;
   font-size: 12pt;
+  padding-top: 12px;
 }
 
 .info-panel {
@@ -241,7 +246,6 @@ hr {
 
 .graph-image {
   width: 50%;
-  padding-top: 40px;
   margin: auto;
   display: block
 }
@@ -355,9 +359,12 @@ hr {
     font-size: 10pt;
   }
 
+  .figure-container {
+    padding: 12px;
+  }
+
   .graph-image {
     width: 90%;
-    padding-top: 40px;
     margin: auto;
     display: block
   }
@@ -365,6 +372,7 @@ hr {
   .subtitle {
     text-align: center;
     font-size: 8pt;
+    padding-top: 8px;
   }
 
   .info-formula {
