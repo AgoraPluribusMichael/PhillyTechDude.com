@@ -130,6 +130,7 @@ td.p {
   color: white;
   background-color: #303030;
   border-color: #303030;
+  border-radius: 8px;
   margin-left: 10%;
   width: 80%;
   padding: 20px;
