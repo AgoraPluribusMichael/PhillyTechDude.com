@@ -5,6 +5,12 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  #topbanner {
+    display: none;
+  }
+}
+
 #topbar {
   left: 0;
   width: 100%;
