@@ -289,8 +289,8 @@ hr {
   }
 
   #back-to-top:active {
-    background-color: #585858;
-    color: gold;
+    background-color: #303030;
+    color: white;
     text-decoration: none;
   }
 }
