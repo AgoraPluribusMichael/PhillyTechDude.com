@@ -95,16 +95,20 @@ a:visited {
   #nav {
     position: static;
     transform: none;
-    overflow-x: auto;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 0;
+    white-space: normal;
   }
 
   .menuButton,
   .menuButtonSelected {
     font-size: 125%;
-    margin: 5px;
-    flex: 1 1 auto;
+    flex: 1 1 45%;
+    margin: 4px;
+    min-width: 120px;
+    box-sizing: border-box;
   }
 }
