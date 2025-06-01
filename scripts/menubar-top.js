@@ -5,10 +5,12 @@ $(document).ready(function() {
 
 window.addEventListener('scroll', () => {
     adjustVerticalOffset();
+    fixMobileMenuWidth();
 });
 
 window.addEventListener('resize', () => {
     adjustVerticalOffset();
+    fixMobileMenuWidth();
 });
 
 function adjustVerticalOffset() {
@@ -35,9 +37,7 @@ function adjustVerticalOffset() {
 function fixMobileMenuWidth() {
     var topbarWidth = document.body.offsetWidth;
     var menuWidth = document.getElementById("header-row").offsetWidth;
-    if (topbarWidth != menuWidth) {
-        var topbar = document.getElementById("topbar");
-        topbar.style.width = menuWidth + "px"
-        topbar.style.marginLeft = ((topbarWidth - menuWidth) / 2) + "px";
-    }
+    var topbar = document.getElementById("topbar");
+    topbar.style.width = menuWidth + "px"
+    topbar.style.marginLeft = ((topbarWidth - menuWidth) / 2) + "px";
 }
