@@ -2,9 +2,6 @@
   background-color: #181818;
   width: 100%;
   overflow: hidden;
-  border-bottom: #383838;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
 }
 
 #philly-skyline-banner {
@@ -88,7 +85,7 @@
   color: gold !important;
   text-align: center;
   text-decoration: none;
-  background-color: #686868;
+  background-color: #686868 !important;
   
   position: static;
   padding: 10px 20px 10px 20px;
@@ -169,12 +166,19 @@ p a:visited {
   .selected {
     font-size: 12pt;
     padding: 14px;
+    color: white;
     margin: 0;
     width: 50%;
     box-sizing: border-box;
   }
 
   #header-row {
+    border-left-style: solid;
+    border-left-color: #282828;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-color: #282828;
+    border-right-width: 1px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -192,13 +196,18 @@ p a:visited {
     margin: 0;
     border: none;
     cursor: pointer;
-    background-color: #404040;
+    background-color: #282828;
     border-style: none;
-    color: white;
+    color: #909090;
     font-size: 28pt;
     width: 20%;
     min-width: 70px;
     height: 70px;
+  }
+
+  #mobile-hamburger:hover {
+    color: gold;
+    background-color: #404040;
   }
 
   #philly-skyline-banner {
