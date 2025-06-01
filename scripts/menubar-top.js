@@ -1,6 +1,6 @@
-
 $(document).ready(function() {
     adjustVerticalOffset();
+    fixMobileMenuWidth();
 });
 
 window.addEventListener('scroll', () => {
@@ -29,5 +29,15 @@ function adjustVerticalOffset() {
         }
     } else {
         mainArticle.style.transform = "translateY(" + offset + "px)";
+    }
+}
+
+function fixMobileMenuWidth() {
+    var topbarWidth = document.body.offsetWidth;
+    var menuWidth = document.getElementById("header-row").offsetWidth;
+    if (topbarWidth != menuWidth) {
+        var topbar = document.getElementById("topbar");
+        topbar.style.width = menuWidth + "px"
+        topbar.style.marginLeft = ((topbarWidth - menuWidth) / 2) + "px";
     }
 }

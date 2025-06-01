@@ -81,7 +81,7 @@
 
 .selected {
   display: inline-block;
-  color: gold;
+  color: gold !important;
   text-align: center;
   text-decoration: none;
   background-color: #686868;
@@ -190,7 +190,7 @@ p a:visited {
     cursor: pointer;
     background-color: #404040;
     border-style: none;
-    color: gold;
+    color: white;
     font-size: 36pt;
     width: 20%;
     min-width: 100px;
