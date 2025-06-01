@@ -45,11 +45,11 @@ body {
   text-decoration: none;
 }
 
-.homepage-section-link:hover div {
+.homepage-section-link:hover section {
   background-color: #686868;
 }
 
-.homepage-section-link:hover div h2 {
+.homepage-section-link:hover section h2 {
   color: gold;
 }
 
