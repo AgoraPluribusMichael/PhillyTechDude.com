@@ -26,10 +26,31 @@ body {
 }
 
 .grid-item {
+  display: flex;
+  flex-direction: column;
   background-color: #303030;
   border-radius: 8px;
   height: 100%;
   padding: 1.25rem;
+  text-decoration: none;
+}
+
+.grid-item p {
+  flex-grow: 1;
+}
+
+.read-more-link {
+  background-color: #181818;
+  border-color: #585858;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.read-more-link:hover {
+  background-color: #686868;
 }
 
 .grid-item-row {
@@ -39,16 +60,13 @@ body {
   padding: 1.25rem;
 }
 
-.homepage-section-link:hover {
-  text-decoration: none;
-}
-
-.homepage-section-link:hover section {
-  background-color: #686868;
-}
-
-.homepage-section-link:hover h2 {
+.read-more-link:link, .read-more-link:visited {
+  display: inline-block;
+  width: 200px;
   color: gold;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 16pt;
 }
 
 .content-area {
