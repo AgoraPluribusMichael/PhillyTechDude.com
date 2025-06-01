@@ -1,10 +1,10 @@
 body {
   font-family: 'Montserrat';
-  background-color: black;
+  background-color: #181818;
 }
 
 .content-area {
-  background-color: black;
+  background-color: #181818;
   overflow: auto;
 }
 
@@ -232,7 +232,7 @@ table, th, td {
   font-family: Courier;
   border: 1px solid white;
   border-collapse: collapse;
-  background-color: black;
+  background-color: #181818;
 }
 
 .table-title {
@@ -298,7 +298,7 @@ hr {
 }
 
 #copyright {
-  background-color: black !important;
+  background-color: #181818 !important;
   border-style: none;
   text-align: center;
   color: white;
