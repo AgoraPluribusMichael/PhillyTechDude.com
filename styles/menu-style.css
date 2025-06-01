@@ -77,22 +77,8 @@ p a:visited {
   
 }
 
-@media (max-width: 999px) {
-  .menuButton, .menuButtonSelected {
-    font-size: 150%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .menuButton, .menuButtonSelected {
-    font-size: 200%;
-  }
-}
-
-@media (min-width: 2000px) {
-  .menuButton, .menuButtonSelected {
-    font-size: 250%;
-  }
+.menuButton, .menuButtonSelected {
+  font-size: 18pt;
 }
 
 @media (max-width: 768px) {
@@ -109,7 +95,7 @@ p a:visited {
 
   .menuButton,
   .menuButtonSelected {
-    font-size: 125%;
+    font-size: 14pt;
     margin: 0;
     width: 100%;
     box-sizing: border-box;
