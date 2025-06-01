@@ -3,8 +3,12 @@ body {
   background-color: #181818;
 }
 
-.grid-section {
-  padding: 2rem;
+.grid-panel {
+  background-color: #181818;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .grid-container {
@@ -352,18 +356,27 @@ hr {
 }
 
 @media (max-width: 768px) {
+
+  .grid-panel {
+    width: 100%;
+    margin: auto;
+  }
+
   .grid-container {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8pt;
     gap: 24px;
   }
 
   .grid-container-single {
-    display: block;
-    text-align: center;
-    margin-top: 24px;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8pt;
+    margin-top: 0;
   }
   
   .panel,
@@ -374,6 +387,8 @@ hr {
     margin-left: auto;
     margin-right: auto;
     padding: 8pt;
+    margin-top: 12px;
+    margin-bottom: 12px;
   }
 
   #copyright {
