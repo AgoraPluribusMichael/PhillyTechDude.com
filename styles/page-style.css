@@ -325,54 +325,20 @@ table, th, td {
   display: block
 }
 
-#back-to-top {
+#copyright {
   position: fixed;
-  bottom: 20px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  background-color: #303030;
-  color: white;
-  border: solid;
-  border-color: #585858;
-  border-width: 3px;
-  border-radius: 8px;
-  font-size: 16pt;
-  padding: 10px 10px;
-  cursor: pointer;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  display: none; /* hidden by default */
-  transition: opacity 0.3s;
-}
-
-#back-to-top:hover {
-  background-color: #585858;
-  color: gold;
-  text-decoration: none;
-}
-
-@media (hover: none) {
-  #back-to-top:hover {
-    background-color: #303030;
-    color: white;
-    text-decoration: none;
-  }
-
-  #back-to-top:active {
-    background-color: #585858;
-    color: gold;
-    text-decoration: none;
-  }
-}
-
-#copyright {
   background-color: #181818 !important;
   border-style: none;
   text-align: center;
   color: white;
   font-size: 16pt;
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding: 12px;
+  height: auto;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -505,16 +471,11 @@ table, th, td {
     font-family: Cambria;
   }
 
-  #back-to-top {
-    font-size: 10pt;
-  }
-
   #copyright {
     text-align: center;
     color: white;
     font-size: 10pt;
-    padding-top: 12px;
-    padding-bottom: 80px;
+    padding: 10px;
   }
 
   .video-container {
