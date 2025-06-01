@@ -90,7 +90,7 @@ div .external-download:visited {
 
 .external-download {
   font-size: 16pt;
-  background-color: #101010;
+  background-color: #181818;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -188,7 +188,7 @@ section {
 }
 
 .info-panel {
-  background-color: #101010;
+  background-color: #181818;
   padding: 8pt;
   border-radius: 8px;
   margin: auto;
