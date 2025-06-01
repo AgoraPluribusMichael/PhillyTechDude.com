@@ -175,7 +175,7 @@ p a:visited {
     overflow: hidden;
     display: flex;
     align-items: stretch;
-    height: 150px;
+    height: 100px;
   }
 
   #mobile-hamburger {
@@ -192,16 +192,16 @@ p a:visited {
     font-size: 36pt;
     width: 20%;
     min-width: 100px;
-    height: 150px;
+    height: 100px;
   }
 
   #philly-skyline-banner {
     background-repeat: no-repeat;
-    background-position-x: 150%;
+    background-position-x: 110%;
     background-position-y: center;
     background-size: cover;
     display: inline-flex;
-    height: 150px;
+    height: 100px;
   }
 
   .mobile-hidden {
