@@ -14,6 +14,7 @@ $(document).ready(function() {
         aObj.href = "#" + id;
         aObj.innerText = label;
         aObj.classList.add("toc-label");
+        aObj.onclick = function() {offsetNavbar();};
         liObj.appendChild(aObj);
         tocBodyObj.appendChild(liObj);
 
@@ -23,3 +24,11 @@ $(document).ready(function() {
         }
     }
 });
+
+function offsetNavbar() {
+    var topbar = document.getElementById("topbar");
+    if (topbar.classList.contains("fixed")) {
+        var offset = topbar.offsetHeight;
+        window.scrollBy(0, offset);
+    }
+}

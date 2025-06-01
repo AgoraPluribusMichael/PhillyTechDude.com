@@ -3,9 +3,14 @@
   overflow: hidden;
 }
 
-#topbanner img {
+#philly-skyline-banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  aspect-ratio: 1401 / 342;
+  max-height: 500px;
   width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -21,13 +26,21 @@
   z-index: 1;
   text-align: center;
   float: none;
+  position: relative;
+  transition: all 0.3s ease;
 }
 
-.hidden-on-mobile {
-  display: block;
+#topbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.menuButton {
+.menu-button {
   display: inline-block;
   color: gold;
   text-align: center;
@@ -41,19 +54,32 @@
   transition: all 0.2s;
 }
 
-.menuButton:hover {
+.menu-label {
+  display: inline;
+  margin-left: 4pt;
+}
+
+.mobile-hidden {
+  display: inline-block;
+}
+
+#mobile-hamburger {
+  display: none;
+}
+
+.menu-button:hover {
   background-color: #545454;
   color: gold;
   text-decoration: none;
 }
 
-.menuButtonSelected:hover {
+.selected:hover {
   background-color: #686868 !important;
   color: gold;
   text-decoration: none;
 }
 
-.menuButtonSelected {
+.selected {
   display: inline-block;
   color: gold;
   text-align: center;
@@ -76,56 +102,109 @@ p a:visited {
   color: #00CCFF;
 }
 
-.menuButton {
+.menu-button {
   font-size: 18pt;
 }
 
 @media (min-width: 800px) {
-  .menuButton {
+  .menu-button {
     font-size: 14pt;
   }
 }
 
 @media (min-width: 1000px) {
-  .menuButton {
+  .menu-button {
     font-size: 18pt;
   }
 }
 
 @media (min-width: 1500px) {
-  .menuButton {
+  .menu-button {
     font-size: 16pt;
   }
 }
 
 @media (min-width: 1650px) {
-  .menuButton {
+  .menu-button {
     font-size: 18pt;
   }
 }
 
 
 @media (max-width: 768px) {
-  #topbar {
-    position: static;
-    transform: none;
+  #topbanner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-    padding: 8px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #topbar {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
     white-space: normal;
   }
 
-  .menuButton,
-  .menuButtonSelected {
-    font-size: 14pt;
+  main {
+    transform: translateY(100px);
+  }
+
+  .menu-button,
+  .selected {
+    font-size: 12pt;
+    padding: 14px;
     margin: 0;
     width: 100%;
     box-sizing: border-box;
   }
 
-  .hidden-on-mobile {
+  #header-row {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    height: 150px;
+  }
+
+  #mobile-hamburger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background-color: #404040;
+    border-style: none;
+    color: gold;
+    font-size: 36pt;
+    width: 20%;
+    min-width: 100px;
+    height: 150px;
+  }
+
+  #philly-skyline-banner {
+    background-repeat: no-repeat;
+    background-position-x: 150%;
+    background-position-y: center;
+    background-size: cover;
+    display: inline-flex;
+    height: 150px;
+  }
+
+  .mobile-hidden {
     display: none !important;
   }
 }

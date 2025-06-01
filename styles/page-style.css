@@ -196,6 +196,10 @@ td.p {
   margin-bottom: 30px;
 }
 
+.section-header {
+  scroll-margin-top: 180px;
+}
+
 section {
   position: relative;
   width: 100%;

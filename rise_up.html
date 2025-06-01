@@ -14,6 +14,7 @@
     <link href="styles/page-style.css" rel="stylesheet">
     <script src="scripts/table-of-contents.js"></script>
     <script src="scripts/back-to-top.js"></script>
+    <script src="scripts/affix.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TR4TKL038J"></script>
     <script>
@@ -30,21 +31,29 @@
   <body>
     <header>
       <div id="topbanner">
-        <img src="images/banner.jpg" alt="Philly Banner">
-        <nav id="topbar">
-          <a href="index.html" class="menuButton">🏠 Home</a><!--
-       --><a href="democracy.html" class="menuButton">🗽 Democracy</a><!--
-       --><a href="new_globalism.html" class="menuButton">🌎 New Globalism</a><!--
-       --><a href="economy.html" class="menuButton">📈 Economy</a><!--
-       --><a href="taxes.html" class="menuButton">🔰 Taxes</a><!--
-       --><a href="social_security.html" class="menuButton">👴 Social Security</a><!--
-       --><a href="policies.html" class="menuButton">💡 Other Policies</a><!--
-       --><a href="rise_up.html" class="menuButton menuButtonSelected">✊🏼 Rise Up</a>
+        <div id="header-row">
+          <button id="mobile-hamburger" onclick="toggleMenu();">☰</button><span id="philly-skyline-banner"></span>
+        </div>
+        <nav id="topbar" class="mobile-hidden">
+          <a href="index.html" class="menu-button">🏠 Home</a><!--
+       --><a href="democracy.html" class="menu-button">🗽 Democracy</a><!--
+       --><a href="new_globalism.html" class="menu-button">🌎 New Globalism</a><!--
+       --><a href="economy.html" class="menu-button">📈 Economy</a><!--
+       --><a href="taxes.html" class="menu-button">🔰 Taxes</a><!--
+       --><a href="social_security.html" class="menu-button">👴 Social Security</a><!--
+       --><a href="policies.html" class="menu-button">💡 Other Policies</a><!--
+       --><a href="rise_up.html" class="menu-button selected">✊🏼 Rise Up</a>
         </nav>
       </div>
     </header>
+    <script>
+      function toggleMenu() {
+        document.getElementById("topbar").classList.toggle("mobile-hidden");
+        document.getElementById("mobile-hamburger").classList.toggle("selected");
+      };
+    </script>
     
-    <main class="content-area container-fluid">
+    <main id="main-article" class="content-area container-fluid">
       <section>
         <div id="title" class="panel">
           <header>
