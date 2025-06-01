@@ -47,6 +47,7 @@ body {
   border-width: 3px;
   margin-top: 10px;
   margin-bottom: 20px;
+  width: 200px;
   font-size: 16pt;
 }
 
@@ -63,7 +64,6 @@ body {
 
 .read-more-link:link, .read-more-link:visited {
   display: inline-block;
-  width: 200px;
   color: gold;
   text-decoration: none;
   padding: 12px;
@@ -398,6 +398,7 @@ table, th, td {
     margin-top: 6px;
     margin-bottom: 12px;
     font-size: 10pt;
+    width: 150px;
   }
   
   .panel,
