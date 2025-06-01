@@ -23,6 +23,10 @@
   float: none;
 }
 
+.hidden-on-mobile {
+  display: block;
+}
+
 .menuButton {
   display: inline-block;
   color: gold;
@@ -119,5 +123,9 @@ p a:visited {
     margin: 0;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .hidden-on-mobile {
+    display: none !important;
   }
 }
