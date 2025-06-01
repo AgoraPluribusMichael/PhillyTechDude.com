@@ -55,6 +55,36 @@ body {
   background-color: #585858;
 }
 
+.read-more-link:link, .read-more-link:visited {
+  display: inline-block;
+  color: gold;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.external-download {
+  background-color: #181818;
+  border-color: #585858;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: auto;
+  font-size: 16pt;
+}
+
+.external-download:hover {
+  background-color: #585858;
+}
+
+.external-download:link, .external-download:visited {
+  display: inline-block;
+  color: gold;
+  text-decoration: none;
+  padding: 12px;
+}
+
 .grid-item-row {
   display: block;
   background-color: #303030;
@@ -63,13 +93,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.read-more-link:link, .read-more-link:visited {
-  display: inline-block;
-  color: gold;
-  text-decoration: none;
-  padding: 12px;
 }
 
 .content-area {
@@ -138,25 +161,6 @@ p {
 
 p {
   padding: 20px;
-}
-
-.external-download-container {
-  text-align: center;
-  padding: 20px;
-}
-
-div .external-download,
-div .external-download:hover,
-div .external-download:visited {
-  color: #00CCFF;
-}
-
-.external-download {
-  font-size: 16pt;
-  background-color: #181818;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -335,24 +339,13 @@ table, th, td {
   width: 100%;
 }
 
-@media (max-width: 1000px) {
-  .external-download-container {
-    text-align: center;
-    padding: 12px;
-  }
-
-  div .external-download,
-  div .external-download:hover,
-  div .external-download:visited {
-    color: #00CCFF;
-  }
-
+@media (max-width: 1200px) {
   .external-download {
+    margin-top: 6px;
+    margin-bottom: 12px;
     font-size: 12pt;
-    background-color: #181818;
-    border-radius: 8px;
-    padding: 12px;
-    text-align: center;
+    width: auto;
+    max-width: 90%;
   }
 }
 
