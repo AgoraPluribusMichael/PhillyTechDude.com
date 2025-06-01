@@ -2,6 +2,9 @@
   background-color: #181818;
   width: 100%;
   overflow: hidden;
+  border-bottom: #383838;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
 
 #philly-skyline-banner {
