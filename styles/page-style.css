@@ -145,14 +145,8 @@ p {
   padding: 20px;
 }
 
-div .external-download {
-  color: #00CCFF;
-}
-
-div .external-download:hover {
-  color: #00CCFF;
-}
-
+div .external-download,
+div .external-download:hover,
 div .external-download:visited {
   color: #00CCFF;
 }
@@ -339,6 +333,27 @@ table, th, td {
   padding: 12px;
   height: auto;
   width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .external-download-container {
+    text-align: center;
+    padding: 12px;
+  }
+
+  div .external-download,
+  div .external-download:hover,
+  div .external-download:visited {
+    color: #00CCFF;
+  }
+
+  .external-download {
+    font-size: 12pt;
+    background-color: #181818;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
