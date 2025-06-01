@@ -147,7 +147,7 @@ p a:visited {
   
   #topbar {
     position: fixed;
-    top: 100px;
+    top: 70px;
     left: 0;
     width: 100%;
     z-index: 1000;
@@ -159,7 +159,7 @@ p a:visited {
   }
 
   main {
-    transform: translateY(100px);
+    transform: translateY(70px);
   }
 
   .menu-button,
@@ -178,7 +178,7 @@ p a:visited {
     overflow: hidden;
     display: flex;
     align-items: stretch;
-    height: 100px;
+    height: 70px;
   }
 
   #mobile-hamburger {
@@ -192,10 +192,10 @@ p a:visited {
     background-color: #404040;
     border-style: none;
     color: white;
-    font-size: 36pt;
+    font-size: 20pt;
     width: 20%;
-    min-width: 100px;
-    height: 100px;
+    min-width: 70px;
+    height: 70px;
   }
 
   #philly-skyline-banner {
@@ -204,7 +204,7 @@ p a:visited {
     background-position-y: center;
     background-size: cover;
     display: inline-flex;
-    height: 100px;
+    height: 70px;
   }
 
   .mobile-hidden {
