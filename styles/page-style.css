@@ -60,6 +60,9 @@ body {
   background-color: #303030;
   border-radius: 8px;
   padding: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .read-more-link:link, .read-more-link:visited {
@@ -516,5 +519,15 @@ table, th, td {
 
   .video-container {
     padding: 12px;
+  }
+
+  .grid-item-row {
+    display: block;
+    background-color: #303030;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 }
