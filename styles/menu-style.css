@@ -172,6 +172,8 @@ p a:visited {
 
   #header-row {
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
     display: flex;
     align-items: stretch;
@@ -197,7 +199,7 @@ p a:visited {
 
   #philly-skyline-banner {
     background-repeat: no-repeat;
-    background-position-x: 150%;
+    background-position-x: 300%;
     background-position-y: center;
     background-size: cover;
     display: inline-flex;
