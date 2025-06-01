@@ -205,11 +205,6 @@ p a:visited {
     height: 70px;
   }
 
-  #mobile-hamburger:hover {
-    color: gold;
-    background-color: #404040;
-  }
-
   #philly-skyline-banner {
     background-repeat: no-repeat;
     background-position-x: 300%;
