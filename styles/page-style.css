@@ -323,6 +323,10 @@ table, th, td {
   display: block
 }
 
+#about-me {
+  margin-bottom: 60px;
+}
+
 #copyright {
   position: fixed;
   bottom: 0px;
@@ -335,7 +339,7 @@ table, th, td {
   color: white;
   font-size: 16pt;
   padding: 12px;
-  height: auto;
+  height: 50px;
   width: 100%;
 }
 
@@ -392,10 +396,6 @@ table, th, td {
     padding: 8pt;
     margin-top: 12px;
     margin-bottom: 12px;
-  }
-
-  #copyright {
-    padding: 8pt;
   }
 
   .list-unordered {
@@ -483,7 +483,7 @@ table, th, td {
     text-align: center;
     color: white;
     font-size: 10pt;
-    padding: 20px;
+    height: 50px;
   }
 
   .video-container {

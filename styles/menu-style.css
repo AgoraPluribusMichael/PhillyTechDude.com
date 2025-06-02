@@ -158,10 +158,6 @@ p a:visited {
     white-space: normal;
   }
 
-  main {
-    transform: translateY(70px);
-  }
-
   .menu-button,
   .selected {
     font-size: 12pt;
