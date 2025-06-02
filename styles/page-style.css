@@ -324,14 +324,10 @@ table, th, td {
 }
 
 #about-me {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
-#copyright {
-  position: fixed;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
+#footer-bar {
   z-index: 100;
   background-color: #181818 !important;
   border-style: none;
@@ -339,7 +335,28 @@ table, th, td {
   color: white;
   font-size: 16pt;
   padding: 12px;
-  height: 50px;
+  width: 100%;
+}
+
+#footer-bar.floating {
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#footer-bar.anchored {
+  position: relative;
+}
+
+#copyright {
+  background-color: #181818 !important;
+  border-style: none;
+  text-align: center;
+  color: white;
+  font-size: 16pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -479,11 +496,17 @@ table, th, td {
     font-family: Cambria;
   }
 
-  #copyright {
+  #footer-bar {
     text-align: center;
     color: white;
     font-size: 10pt;
-    height: 50px;
+  }
+
+  #copyright {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    font-size: 10pt;
   }
 
   .video-container {
