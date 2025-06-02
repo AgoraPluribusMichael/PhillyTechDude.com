@@ -1,19 +1,19 @@
 $(document).ready(function() {
-    adjustVerticalOffset();
+    adjustMenuVerticalOffset();
     fixMobileMenuWidth();
 });
 
 window.addEventListener('scroll', () => {
-    adjustVerticalOffset();
+    adjustMenuVerticalOffset();
     fixMobileMenuWidth();
 });
 
 window.addEventListener('resize', () => {
-    adjustVerticalOffset();
+    adjustMenuVerticalOffset();
     fixMobileMenuWidth();
 });
 
-function adjustVerticalOffset() {
+function adjustMenuVerticalOffset() {
     var skylineBannerImg = document.getElementById("philly-skyline-banner");
     var offset = skylineBannerImg.offsetHeight;
     var mainArticle = document.getElementById("main-article");

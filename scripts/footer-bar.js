@@ -1,16 +1,16 @@
 $(document).ready(function() {
-    adjustVerticalOffset();
+    adjustFooterVerticalOffset();
 });
 
 window.addEventListener('scroll', () => {
-    adjustVerticalOffset();
+    adjustFooterVerticalOffset();
 });
 
 window.addEventListener('resize', () => {
-    adjustVerticalOffset();
+    adjustFooterVerticalOffset();
 });
 
-function adjustVerticalOffset() {
+function adjustFooterVerticalOffset() {
     var scrollY = window.scrollY;
     var scrollMaxY = window.scrollMaxY;
     var copyrightDiv = document.getElementById("footer");
