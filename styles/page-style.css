@@ -327,8 +327,12 @@ table, th, td {
   margin-bottom: 20px;
 }
 
+#footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 #footer-bar {
-  z-index: 100;
   background-color: #181818 !important;
   border-style: none;
   text-align: center;
@@ -341,6 +345,7 @@ table, th, td {
 #footer-bar.floating {
   position: fixed;
   bottom: 0px;
+  z-index: 100;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -355,8 +360,6 @@ table, th, td {
   text-align: center;
   color: white;
   font-size: 16pt;
-  margin-top: 10px;
-  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -496,6 +499,10 @@ table, th, td {
     font-family: Cambria;
   }
 
+  #footer {
+    padding-top: 0;
+  }
+
   #footer-bar {
     text-align: center;
     color: white;
@@ -505,7 +512,6 @@ table, th, td {
   #copyright {
     text-align: center;
     color: white;
-    margin-top: 0px;
     font-size: 10pt;
   }
 

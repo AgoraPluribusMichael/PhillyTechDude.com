@@ -1,17 +1,37 @@
 $(document).ready(function() {
+    adjustMenuMarginBottom();
+    adjustFooterVerticalOffset();
     adjustMenuVerticalOffset();
     fixMobileMenuWidth();
 });
 
 window.addEventListener('scroll', () => {
+    adjustFooterVerticalOffset();
     adjustMenuVerticalOffset();
     fixMobileMenuWidth();
 });
 
 window.addEventListener('resize', () => {
+    adjustMenuMarginBottom();
+    adjustFooterVerticalOffset();
     adjustMenuVerticalOffset();
     fixMobileMenuWidth();
 });
+
+function adjustFooterVerticalOffset() {
+    var scrollY = window.scrollY;
+    var scrollMaxY = window.scrollMaxY;
+    var copyrightDiv = document.getElementById("footer");
+    var copyrightHeight = copyrightDiv.offsetHeight;
+    var footerBarDiv = document.getElementById("footer-bar");
+    if (scrollMaxY - scrollY <= copyrightHeight) {
+        footerBarDiv.classList.remove("floating");
+        footerBarDiv.classList.add("anchored");
+    } else {
+        footerBarDiv.classList.remove("anchored");
+        footerBarDiv.classList.add("floating");
+    }
+}
 
 function adjustMenuVerticalOffset() {
     var skylineBannerImg = document.getElementById("philly-skyline-banner");
@@ -32,6 +52,12 @@ function adjustMenuVerticalOffset() {
     } else {
         mainArticle.style.transform = "translateY(" + offset + "px)";
     }
+}
+
+function adjustMenuMarginBottom() {
+    var footerDiv = document.getElementById("footer");
+    var footerHeight = footerDiv.offsetHeight;
+    footerDiv.style.transform = "translateY(" + footerHeight + "px)";
 }
 
 function fixMobileMenuWidth() {
