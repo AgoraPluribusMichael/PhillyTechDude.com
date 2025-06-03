@@ -130,6 +130,7 @@ ul {
 .list-item {
   text-indent: -1em;
   padding-left: 1em;
+  padding-bottom: 1em;
 }
 
 /* Scrollbar width */
