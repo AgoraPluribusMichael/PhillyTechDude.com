@@ -19,17 +19,23 @@ window.addEventListener('resize', () => {
 });
 
 function adjustFooterVerticalOffset() {
-    var scrollY = window.scrollY;
-    var scrollMaxY = window.scrollMaxY;
     var copyrightDiv = document.getElementById("footer");
-    var copyrightHeight = copyrightDiv.offsetHeight;
     var footerBarDiv = document.getElementById("footer-bar");
-    if (scrollMaxY - scrollY <= copyrightHeight) {
-        footerBarDiv.classList.remove("floating");
-        footerBarDiv.classList.add("anchored");
+    if (footerBarDiv.classList.contains("floating")) {
+        var copyrightDivY = copyrightDiv.getBoundingClientRect().y;
+        var footerBarDivY = footerBarDiv.getBoundingClientRect().y;
+        if (copyrightDivY <= footerBarDivY) {
+            footerBarDiv.classList.remove("floating");
+            footerBarDiv.classList.add("anchored");
+        }
     } else {
-        footerBarDiv.classList.remove("anchored");
-        footerBarDiv.classList.add("floating");
+        var scrollHeight = window.scrollMaxY - window.scrollY;
+        var footerDiv = document.getElementById("footer");
+        var footerDivHeight = footerDiv.getBoundingClientRect().height;
+        if (scrollHeight > footerDivHeight) {
+            footerBarDiv.classList.remove("anchored");
+            footerBarDiv.classList.add("floating");
+        }
     }
 }
 
