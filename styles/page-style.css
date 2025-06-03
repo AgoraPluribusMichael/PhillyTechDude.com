@@ -361,6 +361,8 @@ table, th, td {
   text-align: center;
   color: white;
   font-size: 16pt;
+  padding: 10px;
+  height: auto;
   width: 100%;
 }
 
@@ -514,6 +516,8 @@ table, th, td {
     text-align: center;
     color: white;
     font-size: 10pt;
+    padding: 6px;
+    height: auto;
   }
 
   .video-container {
