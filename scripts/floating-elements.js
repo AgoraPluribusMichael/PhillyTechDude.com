@@ -58,7 +58,8 @@ function adjustMenuMarginBottom() {
     var footerBarDiv = document.getElementById("footer-bar");
     var copyrightDiv = document.getElementById("copyright");
     var footerHeight = footerBarDiv.offsetHeight + copyrightDiv.offsetHeight;
-    footerBarDiv.style.marginTop = footerHeight + "px";
+    var mainArticle = document.getElementById("main-article");
+    mainArticle.style.marginBottom = footerHeight + "px";
 }
 
 function fixMobileMenuWidth() {
