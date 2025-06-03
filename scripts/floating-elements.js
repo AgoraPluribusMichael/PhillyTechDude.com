@@ -55,9 +55,10 @@ function adjustMenuVerticalOffset() {
 }
 
 function adjustMenuMarginBottom() {
-    var footerDiv = document.getElementById("footer");
-    var footerHeight = footerDiv.offsetHeight;
-    footerDiv.style.transform = "translateY(" + footerHeight + "px)";
+    var footerBarDiv = document.getElementById("footer-bar");
+    var copyrightDiv = document.getElementById("copyright");
+    var footerHeight = footerBarDiv.offsetHeight + copyrightDiv.offsetHeight;
+    footerBarDiv.style.marginTop = footerHeight + "px";
 }
 
 function fixMobileMenuWidth() {
