@@ -29,10 +29,13 @@ function adjustFooterVerticalOffset() {
             footerBarDiv.classList.add("anchored");
         }
     } else {
-        var scrollHeight = window.scrollMaxY - window.scrollY;
-        var footerDiv = document.getElementById("footer");
-        var footerDivHeight = footerDiv.getBoundingClientRect().height;
-        if (scrollHeight > footerDivHeight) {
+        var footer = document.getElementById("footer");
+        var footerHeight = footer.getBoundingClientRect().height;
+
+        // https://stackoverflow.com/a/37934154
+        var body = document.body, html = document.documentElement;
+        var docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight,  html.scrollHeight, html.offsetHeight);
+        if (pageYOffset <= docHeight - window.innerHeight - footerHeight) {
             footerBarDiv.classList.remove("anchored");
             footerBarDiv.classList.add("floating");
         }
