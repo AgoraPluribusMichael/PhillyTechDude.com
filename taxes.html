@@ -1,249 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tax Justice • Philly Tech Dude</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic" rel="stylesheet" type="text/css">
-    <script src="scripts/jquery-3.3.1.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="styles/menu-style.css" rel="stylesheet">
-    <link href="styles/page-style.css" rel="stylesheet">
-    <script src="scripts/table-of-contents.js"></script>
-    <script src="scripts/floating-elements.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TR4TKL038J"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-TR4TKL038J');
-    </script>
-  </head>
-  
-  <body>
-    <header>
-      <div id="topbanner">
-        <div id="header-row">
-          <button id="mobile-hamburger" onclick="toggleMenu();">☰</button><span id="philly-skyline-banner"></span>
-        </div>
-        <nav id="topbar" class="mobile-hidden">
-          <a href="index.html" class="menu-button">🏠 Home</a><!--
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax Justice • Philly Tech Dude</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic" rel="stylesheet" type="text/css">
+  <script src="scripts/jquery-3.3.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="styles/menu-style.css" rel="stylesheet">
+  <link href="styles/page-style.css" rel="stylesheet">
+  <script src="scripts/table-of-contents.js"></script>
+  <script src="scripts/floating-elements.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TR4TKL038J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-TR4TKL038J');
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="topbanner">
+      <div id="header-row">
+        <button id="mobile-hamburger" onclick="toggleMenu();">☰</button><span id="philly-skyline-banner"></span>
+      </div>
+      <nav id="topbar" class="mobile-hidden">
+        <a href="index.html" class="menu-button">🏠 Home</a><!--
        --><a href="democracy.html" class="menu-button">🗽 Democracy</a><!--
        --><a href="new_globalism.html" class="menu-button">🌎 New Globalism</a><!--
        --><a href="economy.html" class="menu-button">📈 Economy</a><!--
        --><a href="taxes.html" class="menu-button selected">🔰 Taxes</a><!--
        --><a href="social_security.html" class="menu-button">👴🏽 Social Security</a><!--
-       --><a href="policies.html" class="menu-button">💡 Other Policies</a><!--
+       --><a href="unite_the_states.html" class="menu-button">🏛️ Unite the States</a><!--
        --><a href="rise_up.html" class="menu-button">✊🏼 Rise Up</a>
-        </nav>
-      </div>
-    </header>
-    <script>
-      function toggleMenu() {
-        document.getElementById("topbar").classList.toggle("mobile-hidden");
-        document.getElementById("mobile-hamburger").classList.toggle("selected");
-      };
-    </script>
-    
-    <main id="main-article" class="content-area container-fluid">
-      <section>
-        <div class="panel">
-          <header>
-            <h1>Let's Fight for Tax Justice to Achieve Inclusive Growth</h1>
-            <h2>A Capitalist Case for a Constitutional and Enforceable Wealth Tax</h2>
-          </header>
-          <p>
-            <b>The current tax system is rigged against the working class in favor of protecting the wealth of the top 1%</b>. But it doesn't have to be this way. Imagine a government funded in full off the excess of the overwhelming successes of our wealthiest citizens, a society where the exceptional achievements of a few can significantly and routinely raise the standard of living for everyone across the board. This is what economists call <b>inclusive growth</b>. And we can achieve this with a slight — but significant — tweak to the tax code.
-          </p>
-          <div class="figure-container">
-            <img src="images/wealth_tax_graph.svg" class="graph-image">
-            <div class="subtitle">
-              Figure 1 — a Required Minimum Dividend on the top 1%, taxed at ordinary income rates.
-            </div>
-          </div>
-        </div>
-      </section>
-          
-      <div class="table-of-contents">
-        <h2>Table of Contents</h2>
-        <ol id="toc-body">
-        </ol>
-      </div>
+      </nav>
+    </div>
+  </header>
+  <script>
+    function toggleMenu() {
+      document.getElementById("topbar").classList.toggle("mobile-hidden");
+      document.getElementById("mobile-hamburger").classList.toggle("selected");
+    };
+  </script>
 
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="why">Why a Wealth Tax?</h2>
-            <h3>Let's Fight Wealth Hoarding With Trickle-Down Economics</h3>
-          </header>
-          <p>
-            The economy is a vast, intricate network of millions of individuals that buy and sell goods and services from each other. Think of a giant web of circles, connected organically by lines of volition. Each transaction is a mutually-agreed-upon exchange of value. For example, I can trade $6 for a carton of eggs. Most people see money as inherently valuable, but I believe that <b>money is a resource</b>. Before I spend the $6, it could be used to buy anything, whether that be a carton of eggs, 24 gumballs, or a jpeg of a monkey with a beanie hat. But the <b>money only becomes tangibly valuable when it is realized to buy something that is valuable.</b>
-          </p>
-          <p>
-            For a vast majority of people, this is a distinction without a difference, because we all have a plan to use the money to improve our lives — for groceries, gas, entertainment, school, a car payment, insurance, rent, a house, a wedding, raising a family, that next vacation, retirement — basically, to finance the American Dream while being able to afford the cost of living and discretionary luxuries. 
-          </p>
-          <p>
-            But there are some extraordinarily wealthy people who are sitting on millions and millions of dollars of wealth, with no plans to use it. And I don't think it's out of greed or malice; it's simply the case that past some certain point, there's no longer anything to buy. <b>The biggest lie they teach you in economics class is this concept of "infinite demand."</b> If billionaires really did have infinite demand, then I assure you they wouldn't be billionaires anymore.
-          </p>
-          <p>
-            And it's not even "the economy of the 99% vs. the economy of the 1%." A vast amount of the wealth in the top 1% has no realistic expectation of ever being used for anything, so it is, by definition, not in the economy. <b>If wealth is being hoarded, then it can't be used in the economy to impart realized, tangible value into the lives of millions of Americans.</b>
-          </p>
-          <p>
-            In a healthy economy, the money moves around. <b>Yes, we all own money, but there is a social contract to it, too: Make sure you have a plan to realize the value of that money</b>. I'm not about to collect my paycheck at work, then dig a hole in the ground and bury it under 6 feet of dirt and leave it there for 100 years.
-          </p>
-          <p>
-            According to the Bipartisan Policy Center and the Congressional Budget Office, <a href="https://bipartisanpolicy.org/explainer/what-kinds-of-revenue-does-the-government-collect/" target="_blank">84% of all federal tax revenue for fiscal year 2024 came from income and payroll taxes</a>. In my mind, it's not the amount of money flowing into the government that's the problem, as the taxes are primarily used to promote the general welfare and provide for the common defense of the United States (<a href="https://www.archives.gov/founding-docs/constitution-transcript#1-8:~:text=The%20Congress%20shall%20have%20Power%20To%20lay%20and%20collect%20Taxes%2C%20Duties%2C%20Imposts%20and%20Excises%2C%20to%20pay%20the%20Debts%20and%20provide%20for%20the%20common%20Defence%20and%20general%20Welfare%20of%20the%20United%20States" target="_blank">Article I, Section 8</a>), which is practically the sole mission of the U.S. federal government (<a href="https://www.archives.gov/founding-docs/constitution-transcript#1-8:~:text=We%20the%20People,States%20of%20America." target="_blank">Preamble to the Constitution</a>). The problem arises from the fact that income and payroll taxes take away funds that would otherwise be used in the economy to improve workers' individual lives. <b>Under the current tax system, serving the common good of the United States requires a tax on workers.</b>
-          </p>
-          <p>
-            And while this has been the case for over a century, it does not have to be that way any longer. <b>By shifting the burden of tax from the workers to the wealthy, we can increase take-home pay for workers <u>and</u> fund federal programs to serve the people of the United States.</b> Why do we tax workers up front, when we could instead wait for some of them to become multi-millionaires or billionaires, and tax them then? A wealth tax doubly serves as an incentive for the rich to use their wealth in the economy, and more broadly punishes economic stagnation while rewarding productivity.
-          </p>
-          <p>
-            Maybe it used to be the case that high wealth meant high income. But these days, there are trillions of dollars of wealth that are simply being hoarded, while even the highest earners in America would need to work for centuries to catch up. <b>It should easily be possible to fund the government entirely from excessive wealth from the richest among us</b>, which would create a tax system that lauds and rewards people for making it big instead of penalizing productivity. Achieving an astronomical net worth in America is a remarkable, exceptional achievement. And it's worth noting that <b>if we were to implement a wealth tax, then the existence of billionaires could not be construed as a policy failure</b>. To the contrary, we would benefit from billionaires who generate an outsized proportion of the wealth tax revenue. (Please read my thoughts on <a href="index.html#societal-pessimism" target="_blank">what I believe to be the real policy failure</a>.)
-          </p>
-          <p>
-            In summary: <b>Hands off the working class; we'll tax the rich, and they'll like it!</b>
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="constitutionality">The Wealth Gains Tax is Constitutional — Here's Why</h2>
-            <h3>According to Economists and the Constitution, not the Supreme Court</h3>
-          </header>
-          <p>
-            As an engineer, and not a lawyer, I cannot, for the life of me, understand why people collecting their direct deposits on pay day can easily be subject to a federal income tax on realized income, and the total value of Harlan Crow's properties and land can be taxed indirectly through a municipal split-rate tax, and yet Elon Musk's net worth cannot be taxed in any way other than a direct wealth tax, which is made completely unviable due to the apportionment requirement in Article I, Section 9 of the Constitution, a requirement that wasn't even a good idea in a 1780's agrarian society. It's almost by design that <b>the tax code is rigged against ordinary people to protect the ill-gotten gains of the CEOs who ship jobs overseas for profit</b>. Why is it so easy to tax workers' income but so difficult to tax wealth? If it were completely up to me, I would allow indirect taxes to be applied against the total net worth of the top 1% via wealth taxes, because I view unrealized wealth as a resource with a social contract and therefore see no meaningful distinction between net worth, property value, and land value for purposes of taxation.
-          </p>
-          <p>
-            And yet, while a constitutional wealth tax would be the holy grail of just and equitable tax law, it would probably be easier to make a <b>strong, viable statutory argument that a wealth <u>gains</u> tax is constitutional.</b> So for the time being, I think it makes the most sense to pursue that.
-          </p>
-          <div style="padding:20px">
-            <div class="section-top info-panel">
-              <h2 class="info-title">Haig-Simons Income</h2>
-              <p style="text-align: center">
-                <span class="info-formula">I = C + <b>ΔNW</b></span>
-                <br style="display: block; margin-top: 4pt">
-                <span class="info-formula-desc">where I is income, C is consumption, and <b>ΔNW is change in net worth</b></span>
-              </p>
-            </div>
-            <br style="display: block; margin: 8pt">
-            <div class="section-top info-panel">
-              <h2 class="info-title">The 16th Amendment</h2>
-              <p class="info-text">
-                The Congress shall have power to lay and collect taxes <b>on incomes, from whatever source derived</b>, without apportionment among the several States, and without regard to any census or enumeration.
-              </p>
-            </div>
-          </div>
-          <p>
-            For individuals with a high net worth, any increase in net worth shall be treated as taxable income under the <a href="https://en.wikipedia.org/wiki/Haig%E2%80%93Simons_income" target="_blank">Haig-Simons definition of income</a> — a framework consistent with the <a href="https://www.archives.gov/founding-docs/amendments-11-27#xvi" target="_blank">16th Amendment</a> and thus not subject to the apportionment requirement for direct taxes under <a href="https://www.archives.gov/founding-docs/constitution-transcript#1-9:~:text=Representatives%20and%20direct%20Taxes%20shall%20be%20apportioned%20among%20the%20several%20States%20which%20may%20be%20included%20within%20this%20Union%2C%20according%20to%20their%20respective%20Numbers" target="_blank">Article I, Section 9</a> of the Constitution.
-          </p>
-          <p>
-            We should let the economists of today define what income is, not a <a href="https://en.wikipedia.org/wiki/Eisner_v._Macomber" target="_blank">financially illiterate 5-4 Supreme Court majority from over 100 years ago</a>. <b>In the Eisner v. Macomber decision, the Supreme Court made a ruling that directly contradicted the 16th Amendment</b> by deciding that not all income is taxable. It was a blatant and flagrant <b>authoritarian overreach of judicial power</b> that invalidated the 16th Amendment with just 5 unelected votes, instead of the overwhelming supermajority of elected officials nationwide that would have been required to pass a new constitutional amendment. Furthermore, <b>the Eisner v. Macomber ruling undermines the original intent of the 16th Amendment</b>, which was to make it easier for the government to promote the general welfare and provide for the common defense — the very spirit of the Constitution itself.
-          </p>
-          <p>
-            <b>If we choose to statutorialy define wealth gains as taxable income, then we can fight decades of wage stagnation to fund real tax relief for millions of working people by hiking taxes on the appreciation of the unrealized wealth of the top 1%.</b> And we can do such a tax maneuver with only a simple majority in the Senate and a cooperative president.
-          </p>
-          <p>
-            And in the event that a wealth gains tax gets passed into law, this would place the onus on the Supreme Court if they wanted to make a ruling that would so obviously undermine the general welfare of the United States by revoking newfound economic freedom for millions of families to protect the unrealized wealth of a few billionaires.
-          </p>
-          <p>
-            It is far past time that we <b>overturn Eisner v. Macomber</b>, not only <b>so that we can infuse an extraordinary amount of unrealized value into the lives of millions of Americans</b>, but also <b>so that we can completely and permanently defuse, on a legal and structural level, the most notorious and long-standing point of contention in modern politics</b> — the false choice between the common good of the United States and the individual economic freedom of workers.
-          </p>
-          <p>
-            Come on! We live in the 21st Century! ¿Por qué no los dos? We can easily fund programs that serve the people of the United States <i>while</i> reducing income taxes for millions of workers; <b>we really could have it all if we would just allow ourselves to — yes — tax the rich!</b>
-          </p>
-          
-          <div style="text-align: center;">
-            <a class="external-download" href="docs/wealth_gains_tax_chatgpt_analysis.pdf" target="_blank">
-              <img src="images/pdf_icon.svg" style="width:2em; padding:10px">PDF: Wealth Gains Tax Constitutional/Political Analysis
-            </a>
-          </div>
-        </div>
-      </section>
-      
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="enforcement">How to Enforce a Wealth Gains Tax</h2>
-            <h3>Capital Gains Taxes are Unavoidable</h3>
-          </header>
-          <p>
-            It is true that wealth gains taxes can only generate revenue if the rich get richer. If the wealth gains tax were to be applied against the total wealth of individuals, there would be the same problems with implementation as the wealth taxes that several European countries attempted, where it leads to <a href="https://www.cato.org/tax-budget-bulletin/taxing-wealth-capital-income" target="_blank">large-scale capital flight</a> outside the taxable jurisdiction, which would result in a huge retraction in the economy.
-          </p>
-          <p>
-            However, my argument for the wealth gains tax would still apply to an <b>unrealized capital gains tax</b>, similar to President Biden's proposed <a href="https://cohen.house.gov/sites/evo-subsites/cohen-evo.house.gov/files/BMIT%20One%20Pager.pdf" target="_blank">Billionaire Minimum Income Tax</a>. <b>Capital gains taxes are already easily administered by all brokerages and very difficult to avoid</b>. For one, the exit tax prevents billionaires from renouncing their American citizenship to avoid the tax. Additionally, it would be very difficult to move stocks around without selling them, which in and of itself is a taxable event.
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="robin-hood-tax-credit">The Required Minimum Dividend and the Robin Hood Tax Credit</h2>
-            <h3>A Step Towards Tax Justice — For Everyone, Not Just the Wealthy</h3>
-          </header>
-          <p>
-            The specific policy I'm envisioning is as follows: <b>we tax the gains of the top 1%, and the tax revenue would fund a year-end tax credit to be applied as a tax credit for all taxpayers</b>. Yes, this is exactly what it sounds like: a plan to force the wealthy to pay their fair share in taxes.
-          </p>
-          <p>
-            The mechanism I'm proposing to tax the gains of the wealthy is the <b>Required Minimum Dividend (RMD) on the top 1% of investors</b>. The dividends would be taxed as ordinary income and distributed every month. The dividend yield would be at least 5%, but it would be tied to inflation in case the year-over-year Consumer Price Index (CPI) exceeds 5%. In plain terms, if inflation for the year averages at 3%, then companies must distribute at least 5% of their market cap as dividends over 12 months. But if inflation is 8%, then the RMD yield would be 8%.
-          </p>
-          <p>
-            Based on <a href="https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/#quarter:142;series:Corporate%20equities%20and%20mutual%20fund%20shares;demographic:networth;population:all;units:levels" target="_blank">quarterly data on the household wealth distribution from the Federal Reserve</a>, <b>the top 1% own about half the market cap in the US economy</b>. Thus, it is possible to apply the RMD to only the top 1% and still generate a lot of tax revenue.
-          </p>
-          <p>
-            The tax revenue generated from the RMD would be distributed evenly among the approximately 170 million tax returns filed every year. This would be called the <b>Robin Hood Tax Credit</b>. The end effect of this policy is that <b>the people who actually run the economy would pay less in taxes, and the billionaire wealth hoarders who skate by at the top paying next to nothing in taxes would start to pay their fair share</b>.
-          </p>
-          <p>
-            I coded a quick simulation in Python based on the wealth distribution data from the Federal Reserve, and I found that there could be a significant amount of annual tax relief, as pictured in the graph below. I assume <a href="https://www.bls.gov/news.release/empsit.t01.htm" target="_blank">170 million workers</a>. I assumed 8% inflation for 2022 (<a href="https://www.usinflationcalculator.com/inflation/historical-inflation-rates/" target="_blank">source</a>).
-          </p>
-          <div class="figure-container">
-            <img src="images/robin_hood_tax_relief_sim_graph.svg" class="graph-image">
-            <div class="subtitle">
-              Figure 2 — a graph showing simulated annual per-capita tax relief based on publicly available wealth distribution data.
-            </div>
-          </div>
-          
-          <div style="text-align: center;">
-            <a class="external-download" href="https://github.com/AgoraPluribusMichael/RobinHoodTaxCreditSim/" target="_blank">
-              <img src="images/github_icon.svg" style="width:2.5em; padding:10px">GitHub: My Python Simulation
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="about-me" class="panel">
-        <h2>About Me</h2>
+  <main id="main-article" class="content-area container-fluid">
+    <section>
+      <div class="panel">
+        <header>
+          <h1>Let's Fight for Tax Justice to Achieve Inclusive Growth</h1>
+          <h2>A Capitalist Case for a Constitutional and Enforceable Wealth Tax</h2>
+        </header>
         <p>
-          I'm a software engineer who lives in Philly. After six years of working in the private sector, I quit my day job to launch my startup company Agora Pluribus Technologies, with the goal of using my sklls to empower ordinary people, because I want to be a part of the solution, not the problem.
+          <b>The current tax system is rigged against the working class in favor of protecting the wealth of the top
+            1%</b>. But it doesn't have to be this way. Imagine a government funded in full off the excess of the
+          overwhelming successes of our wealthiest citizens, a society where the exceptional achievements of a few can
+          significantly and routinely raise the standard of living for everyone across the board. This is what
+          economists call <b>inclusive growth</b>. And we can achieve this with a slight — but significant — tweak to
+          the tax code.
+        </p>
+        <div class="figure-container">
+          <img src="images/wealth_tax_graph.svg" class="graph-image">
+          <div class="subtitle">
+            Figure 1 — a Required Minimum Dividend on the top 1%, taxed at ordinary income rates.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="table-of-contents">
+      <h2>Table of Contents</h2>
+      <ol id="toc-body">
+      </ol>
+    </div>
+
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="why">Why a Wealth Tax?</h2>
+          <h3>Let's Fight Wealth Hoarding With Trickle-Down Economics</h3>
+        </header>
+        <p>
+          The economy is a vast, intricate network of millions of individuals that buy and sell goods and services from
+          each other. Think of a giant web of circles, connected organically by lines of volition. Each transaction is a
+          mutually-agreed-upon exchange of value. For example, I can trade $6 for a carton of eggs. Most people see
+          money as inherently valuable, but I believe that <b>money is a resource</b>. Before I spend the $6, it could
+          be used to buy anything, whether that be a carton of eggs, 24 gumballs, or a jpeg of a monkey with a beanie
+          hat. But the <b>money only becomes tangibly valuable when it is realized to buy something that is
+            valuable.</b>
         </p>
         <p>
-          I never formally studied law, public policy, or political science; I'm just a guy who lives here, and I'm fed up waiting for the next big establishment Democratic politician to save us from Trump while the whole world devolves into madness.
+          For a vast majority of people, this is a distinction without a difference, because we all have a plan to use
+          the money to improve our lives — for groceries, gas, entertainment, school, a car payment, insurance, rent, a
+          house, a wedding, raising a family, that next vacation, retirement — basically, to finance the American Dream
+          while being able to afford the cost of living and discretionary luxuries.
         </p>
         <p>
-          All opinions and arguments that appear on this site are my own. Additionally, except where expressly denoted, all policies that appear on this site are ones that I've engineered myself, not as an expert, but as a layman and freedom-minded tech dude who came up with my own solutions and formed my own opinions through my own observations, my own research, and my own critical thought. 
+          But there are some extraordinarily wealthy people who are sitting on millions and millions of dollars of
+          wealth, with no plans to use it. And I don't think it's out of greed or malice; it's simply the case that past
+          some certain point, there's no longer anything to buy. <b>The biggest lie they teach you in economics class is
+            this concept of "infinite demand."</b> If billionaires really did have infinite demand, then I assure you
+          they wouldn't be billionaires anymore.
         </p>
         <p>
-          Check out my <a href="https://agorapluribus.com" target="_blank">startup company Agora Pluribus Technologies</a> and my <a href="https://apmikedotnet.bandcamp.com/" target="_blank">music on Bandcamp</a>.
+          And it's not even "the economy of the 99% vs. the economy of the 1%." A vast amount of the wealth in the top
+          1% has no realistic expectation of ever being used for anything, so it is, by definition, not in the economy.
+          <b>If wealth is being hoarded, then it can't be used in the economy to impart realized, tangible value into
+            the lives of millions of Americans.</b>
         </p>
-      </section>
-      
-    </main>
-    <footer id="footer">
-      <div id="footer-bar" class="floating">
-        Philly Tech Dude Politics • PhillyTechDude.com
+        <p>
+          In a healthy economy, the money moves around. <b>Yes, we all own money, but there is a social contract to it,
+            too: Make sure you have a plan to realize the value of that money</b>. I'm not about to collect my paycheck
+          at work, then dig a hole in the ground and bury it under 6 feet of dirt and leave it there for 100 years.
+        </p>
+        <p>
+          According to the Bipartisan Policy Center and the Congressional Budget Office, <a
+            href="https://bipartisanpolicy.org/explainer/what-kinds-of-revenue-does-the-government-collect/"
+            target="_blank">84% of all federal tax revenue for fiscal year 2024 came from income and payroll taxes</a>.
+          In my mind, it's not the amount of money flowing into the government that's the problem, as the taxes are
+          primarily used to promote the general welfare and provide for the common defense of the United States (<a
+            href="https://www.archives.gov/founding-docs/constitution-transcript#1-8:~:text=The%20Congress%20shall%20have%20Power%20To%20lay%20and%20collect%20Taxes%2C%20Duties%2C%20Imposts%20and%20Excises%2C%20to%20pay%20the%20Debts%20and%20provide%20for%20the%20common%20Defence%20and%20general%20Welfare%20of%20the%20United%20States"
+            target="_blank">Article I, Section 8</a>), which is practically the sole mission of the U.S. federal
+          government (<a
+            href="https://www.archives.gov/founding-docs/constitution-transcript#1-8:~:text=We%20the%20People,States%20of%20America."
+            target="_blank">Preamble to the Constitution</a>). The problem arises from the fact that income and payroll
+          taxes take away funds that would otherwise be used in the economy to improve workers' individual lives.
+          <b>Under the current tax system, serving the common good of the United States requires a tax on workers.</b>
+        </p>
+        <p>
+          <b>But this is a false choice.</b> While this has been the case for over a century, it does not have to be
+          that way any longer. <b>By
+            shifting the burden of tax from the workers to the wealthy, we can increase take-home pay for workers
+            <u>and</u> fund federal programs to serve the people of the United States.</b> Why do we tax workers up
+          front, when we could instead wait for some of them to become multi-millionaires or billionaires, and tax them
+          then? A wealth tax doubly serves as an incentive for the rich to use their wealth in the economy, and more
+          broadly punishes economic stagnation while rewarding productivity.
+        </p>
+        <p>
+          Maybe it used to be the case that high wealth meant high income. But these days, there are trillions of
+          dollars of wealth that are simply being hoarded, while even the highest earners in America would need to work
+          for centuries to catch up. <b>It should easily be possible to fund the government entirely from excessive
+            wealth from the richest among us</b>, which would create a tax system that lauds and rewards people for
+          making it big instead of penalizing productivity. Achieving an astronomical net worth in America is a
+          remarkable, exceptional achievement. And it's worth noting that <b>if we were to implement a wealth tax, then
+            the existence of billionaires could not be construed as a policy failure</b>. To the contrary, we would
+          benefit from billionaires who generate an outsized proportion of the wealth tax revenue. (Please read my
+          thoughts on <a href="rise_up.html#societal-pessimism" target="_blank">what I believe to be the real policy
+            failure</a>.)
+        </p>
+        <p>
+          In summary: <b>Hands off the working class; we'll tax the rich, and they'll like it!</b>
+        </p>
       </div>
-      <div id="copyright">
-        &copy; 2025 Michael Yee. All rights reserved.
+    </section>
+
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="constitutionality">The Wealth Gains Tax is Constitutional — Here's Why</h2>
+          <h3>According to Economists and the Constitution, not the Supreme Court</h3>
+        </header>
+        <p>
+          As an engineer, and not a lawyer, I cannot, for the life of me, understand why people collecting their direct
+          deposits on pay day can easily be subject to a federal income tax on realized income, and the total value of
+          Harlan Crow's properties and land can be taxed indirectly through a municipal split-rate tax, and yet Elon
+          Musk's net worth cannot be taxed in any way other than a direct wealth tax, which is made completely unviable
+          due to the apportionment requirement in Article I, Section 9 of the Constitution, a requirement that wasn't
+          even a good idea in a 1780's agrarian society. It's almost by design that <b>the tax code is rigged against
+            ordinary people to protect the ill-gotten gains of the CEOs who ship jobs overseas for profit</b>. Why is it
+          so easy to tax income from poor workers, but not income from multi-billion-dollar stock portfolios?
+        </p>
+        <p>
+          And yet, while a constitutional wealth tax would be the holy grail of just and equitable tax law, it would
+          probably be easier to make a <b>strong, viable statutory argument that a wealth <u>gains</u> tax is
+            constitutional.</b>
+        </p>
+        <div style="padding:20px">
+          <div class="section-top info-panel">
+            <h2 class="info-title">Haig-Simons Income</h2>
+            <p style="text-align: center">
+              <span class="info-formula">I = C + <b>ΔNW</b></span>
+              <br style="display: block; margin-top: 4pt">
+              <span class="info-formula-desc">where I is income, C is consumption, and <b>ΔNW is change in net
+                  worth</b></span>
+            </p>
+          </div>
+          <br style="display: block; margin: 8pt">
+          <div class="section-top info-panel">
+            <h2 class="info-title">The 16th Amendment</h2>
+            <p class="info-text">
+              The Congress shall have power to lay and collect taxes <b>on incomes, from whatever source derived</b>,
+              without apportionment among the several States, and without regard to any census or enumeration.
+            </p>
+          </div>
+        </div>
+        <p>
+          For individuals with a high net worth, any increase in net worth shall be treated as taxable income under the
+          <a href="https://en.wikipedia.org/wiki/Haig%E2%80%93Simons_income" target="_blank">Haig-Simons definition of
+            income</a> — a framework consistent with the <a
+            href="https://www.archives.gov/founding-docs/amendments-11-27#xvi" target="_blank">16th Amendment</a> and
+          thus not subject to the apportionment requirement for direct taxes under <a
+            href="https://www.archives.gov/founding-docs/constitution-transcript#1-9:~:text=Representatives%20and%20direct%20Taxes%20shall%20be%20apportioned%20among%20the%20several%20States%20which%20may%20be%20included%20within%20this%20Union%2C%20according%20to%20their%20respective%20Numbers"
+            target="_blank">Article I, Section 9</a> of the Constitution.
+        </p>
+        <p>
+          We should let the economists of today define what income is, not a <a
+            href="https://en.wikipedia.org/wiki/Eisner_v._Macomber" target="_blank">financially illiterate 5-4 Supreme
+            Court majority from over 100 years ago</a>. <b>In the Eisner v. Macomber decision, the Supreme Court made a
+            ruling that directly contradicted the 16th Amendment</b> by deciding that not all income is taxable. It was
+          a blatant and flagrant <b>authoritarian overreach of judicial power</b> that invalidated the 16th Amendment
+          with just 5 unelected votes, instead of the overwhelming supermajority of elected officials nationwide that
+          would have been required to pass a new constitutional amendment. Furthermore, <b>the Eisner v. Macomber ruling
+            undermines the original intent of the 16th Amendment</b>, which was to make it easier for the government to
+          promote the general welfare and provide for the common defense — the very spirit of the Constitution itself.
+        </p>
+        <p>
+          It is far past time that we <b>overturn Eisner v. Macomber</b>, not only <b>so that we can infuse an
+            extraordinary amount of unrealized value into the lives of millions of Americans</b>, but also <b>so that we
+            can completely and permanently defuse, on a legal and structural level, the most notorious and long-standing
+            point of contention in modern politics</b> — the false choice between the common good of the United States
+          and the individual economic freedom of workers.
+        </p>
+        <p>
+          Come on! We live in the 21st Century! ¿Por qué no los dos? We can easily fund programs that serve the people
+          of the United States <i>while</i> reducing income taxes for millions of workers; <b>we really could have it
+            all if we would just allow ourselves to — yes — tax the rich!</b>
+        </p>
+        <p>
+          <b>If we choose to statutorialy define wealth gains as taxable income, then we can fight decades of wage
+            stagnation to fund real tax relief for millions of working people by hiking taxes on the appreciation of the
+            unrealized wealth of the top 1%.</b> And we can do such a tax maneuver with only a simple majority in the
+          Senate and a cooperative president.
+        </p>
+        <p>
+          And in the event that a wealth gains tax gets passed into law, this would place the onus on the Supreme Court
+          if they wanted to make a ruling that would so obviously undermine the general welfare of the United States by
+          revoking newfound economic freedom for millions of families to protect the unrealized wealth of a few
+          billionaires.
+        </p>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="enforcement">How to Enforce a Wealth Gains Tax</h2>
+          <h3>Capital Gains Taxes are Unavoidable</h3>
+        </header>
+        <p>
+          It is true that wealth gains taxes can only generate revenue if the rich get richer. If the wealth gains tax
+          were to be applied against the total wealth of individuals, there would be the same problems with
+          implementation as the wealth taxes that several European countries attempted, where it leads to <a
+            href="https://www.cato.org/tax-budget-bulletin/taxing-wealth-capital-income" target="_blank">large-scale
+            capital flight</a> outside the taxable jurisdiction, which would result in a huge retraction in the economy.
+        </p>
+        <p>
+          However, my argument for the wealth gains tax would still apply to an <b>unrealized capital gains tax</b>,
+          similar to President Biden's proposed <a
+            href="https://cohen.house.gov/sites/evo-subsites/cohen-evo.house.gov/files/BMIT%20One%20Pager.pdf"
+            target="_blank">Billionaire Minimum Income Tax</a>. <b>Capital gains taxes are already easily administered
+            by all brokerages and very difficult to avoid</b>. For one, the exit tax prevents billionaires from
+          renouncing their American citizenship to avoid the tax. Additionally, it would be very difficult to move
+          stocks around without selling them, which in and of itself is a taxable event.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="robin-hood-tax-credit">The Required Minimum Dividend and the Robin Hood Tax
+            Credit</h2>
+          <h3>A Step Towards Tax Justice — For Everyone, Not Just the Wealthy</h3>
+        </header>
+        <p>
+          The specific policy I'm envisioning is as follows: <b>we tax the gains of the top 1%, and the tax revenue
+            would fund a year-end tax credit to be applied as a tax credit for all taxpayers</b>. Yes, this is exactly
+          what it sounds like: a plan to force the wealthy to pay their fair share in taxes.
+        </p>
+        <p>
+          The mechanism I'm proposing to tax the gains of the wealthy is the <b>Required Minimum Dividend (RMD) on the
+            top 1% of investors</b>. The dividends would be taxed as ordinary income and distributed every month. The
+          dividend yield would be at least 5%, but it would be tied to inflation in case the year-over-year Consumer
+          Price Index (CPI) exceeds 5%. In plain terms, if inflation for the year averages at 3%, then companies must
+          distribute at least 5% of their market cap as dividends over 12 months. But if inflation is 8%, then the RMD
+          yield would be 8%.
+        </p>
+        <p>
+          Based on <a
+            href="https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/#quarter:142;series:Corporate%20equities%20and%20mutual%20fund%20shares;demographic:networth;population:all;units:levels"
+            target="_blank">quarterly data on the household wealth distribution from the Federal Reserve</a>, <b>the top
+            1% own about half the market cap in the US economy</b>. Thus, it is possible to apply the RMD to only the
+          top 1% and still generate a lot of tax revenue.
+        </p>
+        <p>
+          The tax revenue generated from the RMD would be distributed evenly among the approximately 170 million tax
+          returns filed every year. This would be called the <b>Robin Hood Tax Credit</b>. The end effect of this policy
+          is that <b>the people who actually run the economy would pay less in taxes, and the billionaire wealth
+            hoarders who skate by at the top paying next to nothing in taxes would start to pay their fair share</b>.
+        </p>
+        <p>
+          I coded a quick simulation in Python based on the wealth distribution data from the Federal Reserve, and I
+          found that there could be a significant amount of annual tax relief, as pictured in the graph below. I assume
+          <a href="https://www.bls.gov/news.release/empsit.t01.htm" target="_blank">170 million workers</a>. I assumed
+          8% inflation for 2022 (<a href="https://www.usinflationcalculator.com/inflation/historical-inflation-rates/"
+            target="_blank">source</a>).
+        </p>
+        <div class="figure-container">
+          <img src="images/robin_hood_tax_relief_sim_graph.svg" class="graph-image">
+          <div class="subtitle">
+            Figure 2 — a graph showing simulated annual per-capita tax relief based on publicly available wealth
+            distribution data.
+          </div>
+        </div>
+
+        <div style="text-align: center;">
+          <a class="external-download" href="https://github.com/AgoraPluribusMichael/RobinHoodTaxCreditSim/"
+            target="_blank">
+            <img src="images/github_icon.svg" style="width:2.5em; padding:10px">GitHub: My Python Simulation
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-me" class="panel">
+      <h2>About Me</h2>
+      <p>
+        I'm a software engineer who lives in Philly. After six years of working in the private sector, I quit my day job
+        to launch my startup company Agora Pluribus Technologies, with the goal of using my sklls to empower ordinary
+        people, because I want to be a part of the solution, not the problem.
+      </p>
+      <p>
+        I never formally studied law, public policy, or political science; I'm just a guy who lives here, and I'm fed up
+        waiting for the next big establishment Democratic politician to save us from Trump while the whole world
+        devolves into madness.
+      </p>
+      <p>
+        All opinions and arguments that appear on this site are my own. Additionally, except where expressly denoted,
+        all policies that appear on this site are ones that I've engineered myself, not as an expert, but as a layman
+        and freedom-minded tech dude who came up with my own solutions and formed my own opinions through my own
+        observations, my own research, and my own critical thought.
+      </p>
+      <p>
+        Check out my <a href="https://agorapluribus.com" target="_blank">startup company Agora Pluribus Technologies</a>
+        and my <a href="https://apmikedotnet.bandcamp.com/" target="_blank">music on Bandcamp</a>.
+      </p>
+    </section>
+
+  </main>
+  <footer id="footer">
+    <div id="footer-bar" class="floating">
+      Philly Tech Dude Politics • PhillyTechDude.com
+    </div>
+    <div id="copyright">
+      &copy; 2025 Michael Yee. All rights reserved.
+    </div>
+  </footer>
+</body>
+
 </html>
