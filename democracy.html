@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Democracy • Philly Tech Dude</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic" rel="stylesheet" type="text/css">
-    <script src="scripts/jquery-3.3.1.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="styles/menu-style.css" rel="stylesheet">
-    <link href="styles/page-style.css" rel="stylesheet">
-    <script src="scripts/table-of-contents.js"></script>
-    <script src="scripts/floating-elements.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TR4TKL038J"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-TR4TKL038J');
-    </script>
-  </head>
-  
-  <body>
-    <header>
-      <div id="topbanner">
-        <div id="header-row">
-          <button id="mobile-hamburger" onclick="toggleMenu();">☰</button><span id="philly-skyline-banner"></span>
-        </div>
-        <nav id="topbar" class="mobile-hidden">
-          <a href="index.html" class="menu-button">🏠 Home</a><!--
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Democracy • Philly Tech Dude</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic" rel="stylesheet" type="text/css">
+  <script src="scripts/jquery-3.3.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="styles/menu-style.css" rel="stylesheet">
+  <link href="styles/page-style.css" rel="stylesheet">
+  <script src="scripts/table-of-contents.js"></script>
+  <script src="scripts/floating-elements.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TR4TKL038J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-TR4TKL038J');
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="topbanner">
+      <div id="header-row">
+        <button id="mobile-hamburger" onclick="toggleMenu();">☰</button><span id="philly-skyline-banner"></span>
+      </div>
+      <nav id="topbar" class="mobile-hidden">
+        <a href="index.html" class="menu-button">🏠 Home</a><!--
        --><a href="democracy.html" class="menu-button selected">🗽 Democracy</a><!--
        --><a href="new_globalism.html" class="menu-button">🌎 New Globalism</a><!--
        --><a href="economy.html" class="menu-button">📈 Economy</a><!--
@@ -42,189 +43,291 @@
        --><a href="social_security.html" class="menu-button">👴🏽 Social Security</a><!--
        --><a href="policies.html" class="menu-button">💡 Other Policies</a><!--
        --><a href="rise_up.html" class="menu-button">✊🏼 Rise Up</a>
-        </nav>
+      </nav>
+    </div>
+  </header>
+  <script>
+    function toggleMenu() {
+      var topbar = document.getElementById("topbar");
+      topbar.classList.toggle("mobile-hidden");
+      document.getElementById("mobile-hamburger").classList.toggle("selected");
+    };
+  </script>
+
+  <main id="main-article" class="content-area container-fluid">
+    <section>
+      <div id="title" class="panel">
+        <h1>We Can and Must Save Democracy</h1>
+        <h2>Let's Do It Together in 2026, Not 2028</h2>
+
+        <p>
+          Donald Trump and his allies are now pushing an extreme legal doctrine called the <b>unitary executive
+            theory</b>, which claims the president has total control over the entire executive branch — including
+          federal agencies and prosecutors. In practice, it's a <b>concerted effort to establish an American
+            dictatorship</b> where the will of one man can override the will of Congress, the courts, and ultimately,
+          the people. To save our democracy, <b>we must reverse this authoritarian concentration of power</b> and return
+          the power to the people.
+        </p>
+        <p>
+          <b>The best way we can save democracy is to actually be a democracy</b> instead of our current political
+          oligarchy, where only Donald Trump and senior Democratic Party insiders have any control over the legislative
+          agenda and political narrative, and corporate special interest groups wield the power of the pen to encode
+          thousands of pages of dense legalese into law.
+        </p>
+        <p>
+          But we already have a mechanism to realize the collective power of our voices: <b>the discharge petition</b>.
+          And there are a few structural changes that can help us regain control of our government.
+        </p>
       </div>
-    </header>
-    <script>
-      function toggleMenu() {
-        var topbar = document.getElementById("topbar");
-        topbar.classList.toggle("mobile-hidden");
-        document.getElementById("mobile-hamburger").classList.toggle("selected");
-      };
-    </script>
-    
-    <main id="main-article" class="content-area container-fluid">
-      <section>
-        <div id="title" class="panel">
-          <h1>We Can and Must Save Democracy</h1>
-          <h2>Let's Do It Together in 2026, Not 2028</h2>
-          
-          <p>
-            Donald Trump and his allies are now pushing an extreme legal doctrine called the <b>unitary executive theory</b>, which claims the president has total control over the entire executive branch — including federal agencies and prosecutors. In practice, it's a <b>concerted effort to establish an American dictatorship</b> where the will of one man can override the will of Congress, the courts, and ultimately, the people. To save our democracy, <b>we must reverse this authoritarian concentration of power</b> and return the power to the people.
-          </p>
-          <p>
-            <b>The best way we can save democracy is to actually be a democracy</b> instead of our current political oligarchy, where only Donald Trump and senior Democratic Party insiders have any control over the legislative agenda and political narrative, and corporate special interest groups wield the power of the pen to encode thousands of pages of dense legalese into law.
-          </p>
-          <p>
-            But we already have a mechanism to realize the collective power of our voices: <b>the discharge petition</b>. And there are a few structural changes that can help us regain control of our government.
-          </p>
-        </div>
-      </section>
-      
-      <div class="table-of-contents panel">
-        <h2>Table of Contents</h2>
-        <ol id="toc-body">
-        </ol>
-      </div>
+    </section>
 
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="save-democracy" >A Legal Tool for Activism: The Discharge Petition</h2>
-            <h3>We the People Can Wield the Power of the Pen, Not Just the Politicians</h3>
-          </header>
-          <p>
-            It is possible to force the House of Representatives to act on behalf of the people, not partisan politics. <b>We have the power to tell our representatives to start a discharge petition for a bill that we write and advocate for during the midterm election season</b> (not a thousand-page omnibus bill made behind closed doors by corporate lobbyists and special interest groups). We would likely have to wait for the election season to start for the advocacy to make the most impact, since most people don't start paying attention to politics until the mainstream media tells them it's election time, but that shouldn't stop us from starting early to spread the word. There's also no need for an extensive political infrastructure to activate advocates; all we need are a bunch of people who can decide on a local level when and how to peacefully advocate for their congressional district. Maybe county-level Forward Party organizers can take the lead on this instead of the DNC, who has failed upwards for 10 years straight and cares more about the <a href="https://en.wikipedia.org/wiki/Hillary_Clinton" target="_blank">qualifications and expertise of themselves</a> than the <a href="https://en.wikipedia.org/wiki/John_F._Kennedy" target="_blank">learning and reason of the people</a>. Put more bluntly, <b>this isn't your grandmother's Democratic Party</b>.
-          </p>
-          <p>
-            <b>If we can get a majority of representatives in the House to sign onto the petition, we can force the House to vote on the bill.</b> Once it's on the floor of the House, we will see who is blocking it from passing. For all swamp creatures that vote Nay, we will organize! <b>Local newspapers</b>, write articles! <b>Local radio stations</b>, put them on blast! <b>Local residents</b>, flood the office with calls and emails, and get on the ground and organize! <b>If we can get an unvetoable majority of representatives to vote in favor of the bill, then the representatives can do a standing filibuster.</b> The House can storm the Senate — not with zip-ties and violence, but instead with votes and voices — and refuse to leave the Senate chamber until the bill receives an unvetoable majority of senators to vote in favor. <b>If we can pass a law that receives an unvetoable majority in both the House and the Senate, then it will become law</b>, regardless of what the White House wants. If the government will not do its job, then it is incumbent on us to do their job for them.
-          </p>
-          <p>
-            Even if we can't get an unvetoable majority, this process would make it politically difficult for the White House to reject the bill on partisan contrarianism alone. No one could characterize it as a "liberal wish list" or claim that "no one knows what's in the bill." To the contrary, since all bills going through Congress are easily accessible online through <a href="https://congress.gov" target="_blank">Congress.gov</a> or <a href="https://govtrack.us" target="_blank">GovTrack.us</a>, <b>it would be extremely easy for anyone to verify that the official version circulating in the House of Representatives indeed matches the version of bill we're advocating for.</b>
-          </p>
-          <p>
-            I reject the notion that the "sausage-making" of public laws can only be made from shady backroom deals in the Washington swamp and written by special interest groups and corporate entities who spew thousands of pages of dense legalese. To the contrary, I believe that most major bills should be collaboratively written out in the open and introduced through discharge petitions during election or activist campaigns. This would allow us to have real, productive conversations with the general public about the enormously consequential laws we're trying to pass as a nation. Furthermore, election season is when people are paying the most attention to politics. <b>Far more important than Beltway bipartisanship is for millions of Americans to engage, understand, and participate in the democratic process.</b> And even after the election, using discharge petitions for small, but substantive bills can help desegregate the House of Representatives, increase public engagement and transparency, and encourage any member of the House to present a winning idea, not just party leadership following the <a href="https://en.wikipedia.org/wiki/Hastert_rule" target="_blank">Hastert Rule</a>.
-          </p>
-        </div>
-      </section>
+    <div class="table-of-contents panel">
+      <h2>Table of Contents</h2>
+      <ol id="toc-body">
+      </ol>
+    </div>
 
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="ccmc-act">Let's Revitalize our Crumbling Health System by Publicly Funding Hospitals</h2>
-            <h3>From Philadelphia to Appalachia, Let's Heal the Divide!</h3>
-          </header>
-          <p>
-            The pandemic put our public health system under enormous strain. Even today, private hospitals all around the country are struggling to stay afloat. <b>The doctors, nurses, and health workers fought the virus on the frontlines for us during the pandemic, so it's time for us to return the favor by getting on the frontlines revitalize our failing health system.</b>
-          </p>
-          <p>
-            Crozer Chester Medical Center (CCMC) was a for-profit hospital in Chester County, PA that recently shut down because it is more profitable to dismantle an entire health system than it is to serve the poor. For impoverished urban areas like Chester, as well as under-served rural areas around the country where it might take an hour to get to the nearest hospital, <b>let's advocate for public funding to revitalize our hospital system</b>. We can fight to build new public hospitals and restore disproportionate share funding for existing private hospitals (think Obamacare subsidies, but for hospitals, not health insurance). And <b>who will foot the bill? The very people who profit by undermining our public health.</b> The wealthy will pay for it all — <a href="taxes.html" target="_blank">not the high earners; the wealthy!</a> This time, we're leaving no one behind — not the people in the inner city, and not the folks in countryside either. Americans don't leave Americans behind. <b>Let's Heal the Divide!</b>
-          </p>
-          <p>
-            This one is personal for me, since Crozer Chester Medical Center was the hospital that saved my life when my appendix was trying to kill me, and it is also where I received my first dose of the mRNA COVID vaccine. Crozer Psychiatry saved my life when I went through a terrible mental health crisis during the worst of the pandemic in late 2020. To me, <b>it is unconscionable for our society to let this hospital that has dutifully served the community for years, go out of business</b>, especially one that helped us survive the pandemic. And <b>it is unacceptable for rural Americans to have no nearby hospitals in the case their son or daughter overdoses on drugs</b>. Together, we can bridge the urban/rural divide and fight for a government that works for us, not themselves or their corporate cronies.
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="legislative-state">Let's Decentralize the Executive Branch of the Government</h2>
-            <h3>Together, We Can Take Control of the Deep State and Force It To Do Our Bidding</h3>
-          </header>
-          <p>
-            Donald Trump promised to be a dictator on day one — and he's certainly governing like one. Backed by the far-right Project 2025 <b>unitary executive theory</b>, which claims that the president of the United States has total, unchecked authority over every agency in the Executive Branch, Donald Trump and Elon Musk have taken a sledgehammer to the very institutions that execute hundreds of invaluable government programs and services for millions of Americans.
-          </p>
-          <p>
-            The administrative state — which includes agencies like the Department of State, Department of Defense, Department of Education, and Social Security Administration — is not a formally defined entity in the Constitution, but it has long functioned as the professional backbone of the federal government that executes the day-to-day governance, interpreting and implementing laws passed by Congress. In doing so, they serve as a quasi-check on the power of the president — a de facto 4th branch of the government and a stabilizing force within the Executive Branch. What we're witnessing is that <b>Trump is trying to destroy the very part of the government that is specifically designed to execute the laws passed through Congress, which is a direct assault on our democracy</b>.
-          </p>
-          <p>
-            But <b>we can fight back by establishing a Legislative State</b>: a legislative-branch counterpart to the administrative state. This new grassroots architecture would focus on legislation, funding, oversight, and policy design. The lawmaking would be done in a collaborative way that is open to the public through websites whose source code is free and open source.
-          </p>
-          <div style="text-align: center;">
-            <a class="external-download" href="https://github.com/AgoraPluribusMichael/AgoraPluribusDotNetworkApp/" target="_blank">
-              <img src="images/github_icon.svg" style="width:2.5em; padding:10px">GitHub: My Website Builder (work in progress)
-            </a>
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="impeachable-offenses">Let's Stop the President from Abusing his Power</h2>
+          <h3>Congress Must Do Its Damn Job and Check the Power of the President</h3>
+        </header>
+        <p>
+          Donald Trump promised to be a dictator on day one — and he's certainly governing like one. Backed by the
+          far-right Project 2025 <b>unitary executive theory</b>, which claims that the president of the United States
+          has total, unchecked authority over every agency in the Executive Branch, Donald Trump and Elon Musk have
+          taken a sledgehammer to the very institutions that execute hundreds of invaluable government programs and
+          services for millions of Americans.
+        </p>
+        <p>
+          The administrative state — which includes agencies like the Department of State, Department of Defense,
+          Department of Education, and Social Security Administration — is not a formally defined entity in the
+          Constitution, but it has long functioned as the professional backbone of the federal government that executes
+          the day-to-day governance, interpreting and implementing laws passed by Congress. In doing so, they serve as a
+          quasi-check on the power of the president — a de facto 4th branch of the government and a stabilizing force
+          within the Executive Branch. What we're witnessing is that <b>Trump is trying to destroy the very part of the
+            government that is specifically designed to execute the laws passed through Congress, which is a direct
+            assault on our democracy</b>.
+        </p>
+        <p>
+          Additionally, President Trump has imposed destructive tariffs on our allies around the world and authorized
+          missile strikes against Iran without the consent of Congress. <b>These behaviors directly break fundamental
+            laws that were established in the Constitution of the United States</b>.
+        </p>
+        <p>
+          Article II, Section 3 states that one the president's duties is to <a
+            href="https://constitution.congress.gov/browse/article-2/section-3/#:~:text=he%20shall%20take%20Care%20that%20the%20Laws%20be%20faithfully%20executed"
+            target="_blank">take care that the laws be faithfully executed</a>. Article I, Section 8 of the Constitution
+          authorizes Congress to <a
+            href="https://constitution.congress.gov/browse/article-1/section-8/#:~:text=To%20regulate%20Commerce%20with%20foreign%20Nations">regulate
+            commerce between nations</a> and <a
+            href="https://constitution.congress.gov/browse/article-1/section-8/#:~:text=11%20War%20Powers-,To%20declare%20War,-%2C%20grant%20Letters%20of">declare
+            war on other nations</a>.
+        </p>
+        <div style="padding: 20px">
+          <div class="section-top info-panel">
+            <h2 class="info-title">Article II, Section 3 of the Constitution</h2>
+            <h3 class="info-subtitle">Take Care Clause</h3>
+            <p class="info-text">
+              he shall take Care that the Laws be faithfully executed
+            </p>
           </div>
-          <p>
-            To force the White House to execute the laws, I propose the <b>Impeachable Offenses Act</b> — a statute that would <b>codify specific abuses of power as impeachable crimes</b>, including:
-          </p>
-          <ul class="list-unordered">
-            <li class="list-item"><b>Willful refusal to execute laws</b> that were duly passed by Congress</li>
-            <li class="list-item">Initiating sanctions, <b>tariffs</b>, or acts of war against another country without congressional approval</li>
-          </ul>
-          <p>
-            Article II, Section 3 states that one the president's duties is to <a href="https://constitution.congress.gov/browse/article-2/section-3/#:~:text=he%20shall%20take%20Care%20that%20the%20Laws%20be%20faithfully%20executed" target="_blank">take care that the laws be faithfully executed</a>. Article I, Section 8 of the Constitution authorizes Congress to <a href="https://constitution.congress.gov/browse/article-1/section-8/#:~:text=To%20regulate%20Commerce%20with%20foreign%20Nations">regulate commerce between nations</a> and <a href="https://constitution.congress.gov/browse/article-1/section-8/#:~:text=11%20War%20Powers-,To%20declare%20War,-%2C%20grant%20Letters%20of">declare war on other nations</a>.
-          </p>
-          
-          <div style="padding:20px">
-            <div class="section-top info-panel">
-              <h2 class="info-title">Article II, Section 3 of the Constitution</h2>
-              <h3 class="info-subtitle">Take Care Clause</h3>
-              <p class="info-text">
-                he shall take Care that the Laws be faithfully executed
-              </p>
-            </div>
+          <div class="section-top info-panel">
+            <h2 class="info-title">Article I, Section 8 of the Constitution</h2>
+            <h3 class="info-subtitle">Commerce Clause and War Powers Clause</h3>
+            <p class="info-text">
+              The Congress shall have Power...
+            </p>
+            <p class="info-text">
+              To regulate Commerce with foreign Nations, and among the several States...
+            </p>
+            <p>
+              To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water
+            </p>
           </div>
-          <div style="padding:20px">
-            <div class="section-top info-panel">
-              <h2 class="info-title">Article I, Section 8 of the Constitution</h2>
-              <h3 class="info-subtitle">Commerce Clause and War Powers Clause</h3>
-              <p class="info-text">
-                The Congress shall have Power...
-              </p>
-              <p class="info-text">
-                To regulate Commerce with foreign Nations, and among the several States...
-              </p>
-              <p>
-                To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water
-              </p>
-            </div>
-          </div>
-          <p>
-            There is no amendment to the Constitution that altered the Take Care Clause in Article II, Section 3 or the Commerce Clause or War Powers Clause in Article I, Section 8. For this reason, it is <b>unconstitutional for Trump</b> to <b>gut the Social Security Administration</b>, <b>apply blanket tariffs</b> on our allies around the world, and <b>strike Iran without the consent of Congress</b>. It also follows that <b>Section 232 of the <a href="https://en.wikipedia.org/wiki/Trade_Expansion_Act" target="_blank">Trade Expansion Act of 1962</a> is unconstitutional</b>. The Constitution is the supreme law of the land, so <b>if the president breaks a constitutional law, then he has committed a high crime.</b> And <b>if breaking with the Constitution is not considered a high crime, then there is no such thing.</b>
-          </p>
-          <p>
-            Together, the Legislative State and Impeachable Offenses Act would allow us to fight back against the tyranny and restore democratic oversight to our institutions.
-          </p>
         </div>
-      </section>
+        <p>
+          There is no amendment to the Constitution that altered the Take Care Clause in Article II, Section 3 or the
+          Commerce Clause or War Powers Clause in Article I, Section 8. For this reason, it is <b>unconstitutional for
+            Trump</b> to <b>gut the Social Security Administration</b>, <b>apply blanket tariffs</b> on our allies
+          around the world, and <b>strike Iran without the consent of Congress</b>. It also follows that <b>Section 232
+            of the Trade Expansion Act of 1962 is unconstitutional</b>. The Constitution is the supreme law of the land,
+          so <b>if the president breaks a constitutional law, then he has committed a high crime.</b> And <b>if breaking
+            with the Constitution is not considered a high crime, then there is no such thing.</b>
+        </p>
+      </div>
+    </section>
 
-      <section>
-        <div class="panel">
-          <header>
-            <h2 class="section-header" id="legislative-transparency">Let's Increase Legislative Transparency by Publicizing the Writing of Laws</h2>
-            <h3>If the Laws are Public, then the Sausage-Making Should Be Publicized</h3>
-          </header>
-          <p>
-            Far too many laws are drafted behind closed doors — not by elected officials, but by corporate lobbyists and special interest groups. These groups often shape legislation to serve their own agendas rather than the public good.
-          </p>
-          <p>
-            It's time to shine a light up in there.
-          </p>
-          <p>
-            I propose that we <b>require the drafting and editing of all bills to be publicly visible before they can even be introduced in committee</b>. This would mean all legislation would have to go through the Legislative State before being introduced into committee.
-          </p>
-          <p>
-            Not only would this make it easier for other lawmakers and the general public to vet the contents of the bills being written, but also make it harder for the special interest groups to secretly rig the rules in favor of their own interests at the expense of the American people.
-          </p>
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="legislative-transparency">Let's Increase Legislative Transparency by
+            Publicizing the Writing of Laws</h2>
+          <h3>If the Laws are Public, then the Sausage-Making Should Be Publicized</h3>
+        </header>
+        <p>
+          Far too many laws are drafted behind closed doors — not by elected officials, but by corporate lobbyists and
+          special interest groups. These groups often shape legislation to serve their own agendas rather than the
+          public good.
+        </p>
+        <p>
+          It's time to shine a light up in there.
+        </p>
+        <p>
+          <b>We can fight back by establishing a Legislative State</b>: a legislative-branch counterpart to the
+          administrative state. This new grassroots architecture would focus on legislation, funding, oversight, and
+          policy design. The lawmaking would be done in a collaborative way that is open to the public through websites
+          whose source code is free and open source.
+        </p>
+        <p>
+          If we can create a decentralized group of citizens and lawmakers to collaboratively draft the legislation for
+          Congress in a publicized, transparent manner, <b>we can invalidate the laws written by corrupt special
+            interest
+            groups and lobbyists</b> that rig the rules in their favor and <b>create a bloc of highly-engaged voters
+            that have influence over
+            every congressional primary</b>. With the Legislative State, it would be understood that <b>the drafting and
+            editing of all bills would be publicly visible before they can even be introduced in committee in
+            Congress</b>.
+        </p>
+        <p>
+          Not only would this make it easier for other lawmakers and the general public to vet the contents of the bills
+          being written, but also make it harder for the special interest groups to secretly rig the rules in favor of
+          their own interests at the expense of the American people.
+        </p>
+
+        <div style="text-align: center;">
+          <a class="external-download" href="https://github.com/AgoraPluribusMichael/AgoraPluribusFrontend/"
+            target="_blank">
+            <img src="images/github_icon.svg" style="width:2.5em; padding:10px">GitHub: My Website Builder (work in
+            progress)
+          </a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="about-me" class="panel">
-        <h2>About Me</h2>
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="discharge-petition">A Legal Tool for Activism: The Discharge Petition</h2>
+          <h3>We the People Can Wield the Power of the Pen, Not Just the Politicians</h3>
+        </header>
         <p>
-          I'm a 28-year-old software engineer who lives in Philly. After years of working in the private sector, I’ve become increasingly motivated to shift my energy toward public service, advocacy, and civic engagement, because I want to be a part of the solution, not the problem.
+          It is possible to force the House of Representatives to act on behalf of the people, not partisan politics.
+          <b>We have the power to tell our representatives to start a discharge petition for a bill that we write and
+            advocate for during the midterm election season</b> This is the mechanism that the Legislative State can use
+          to lobby Congress to pass laws made of by and for the people, not the corporations.
         </p>
         <p>
-          I never formally studied law, public policy, or political science; I'm just a guy who lives here, and I'm fed up waiting for the next big establishment Democratic politician to save us from Trump while the whole world devolves into madness.
+          <b>If we can get a majority of representatives in the House to sign onto the petition, we can force the House
+            to vote on the bill.</b> Once it's on the floor of the House, we will see who is blocking it from passing.
+          For all swamp creatures that vote Nay, we will organize! <b>Local newspapers</b>, write articles! <b>Local
+            radio stations</b>, put them on blast! <b>Local residents</b>, flood the office with calls and emails, and
+          get on the ground and organize! <b>If we can get an unvetoable majority of representatives to vote in favor of
+            the bill, then the representatives can do a standing filibuster.</b> The House can storm the Senate — not
+          with zip-ties and violence, but instead with votes and voices — and refuse to leave the Senate chamber until
+          the bill receives an unvetoable majority of senators to vote in favor. <b>If we can pass a law that receives
+            an unvetoable majority in both the House and the Senate, then it will become law</b>, regardless of what the
+          White House wants. If the government will not do its job, then it is incumbent on us to do their job for them.
         </p>
         <p>
-          All opinions and arguments that appear on this site are my own. Additionally, except where expressly denoted, all policies that appear on this site are ones that I've engineered myself, not as an expert, but as a layman and freedom-minded tech dude who came up with my own solutions and formed my own opinions through my own observations, my own research, and my own critical thought. 
+          Even if we can't get an unvetoable majority, this process would make it politically difficult for the White
+          House to reject the bill on partisan contrarianism alone. No one could characterize it as a "liberal wish
+          list" or "extreme MAGA agenda" or claim that "no one knows what's in the bill." To the contrary, since all
+          bills going through Congress
+          are easily accessible online through <a href="https://congress.gov" target="_blank">Congress.gov</a> or <a
+            href="https://govtrack.us" target="_blank">GovTrack.us</a>, <b>it would be extremely easy for anyone to
+            verify that the official version circulating in the House of Representatives indeed matches the version of
+            bill we're advocating for.</b>
         </p>
         <p>
-          Check out my <a href="https://agorapluribus.com" target="_blank">startup company Agora Pluribus Technologies</a> and my <a href="https://apmikedotnet.bandcamp.com/" target="_blank">music on Bandcamp</a>.
+          I reject the notion that the "sausage-making" of public laws can only be made from shady backroom deals in the
+          Washington swamp and written by special interest groups and corporate entities who spew thousands of pages of
+          dense legalese. To the contrary, I believe that most major bills should be collaboratively written out in the
+          open and introduced through discharge petitions during election or activist campaigns. This would allow us to
+          have real, productive conversations with the general public about the enormously consequential laws we're
+          trying to pass as a nation. Furthermore, election season is when people are paying the most attention to
+          politics. <b>Far more important than Beltway bipartisanship is for millions of Americans to engage,
+            understand, and participate in the democratic process.</b> And even after the election, using discharge
+          petitions for small, but substantive bills can help desegregate the House of Representatives, increase public
+          engagement and transparency, and encourage any member of the House to present a winning idea, not just party
+          leadership following the <a href="https://en.wikipedia.org/wiki/Hastert_rule" target="_blank">Hastert
+            Rule</a>.
         </p>
-      </section>
-      
-    </main>
-    <footer id="footer">
-      <div id="footer-bar" class="floating">
-        Philly Tech Dude Politics • PhillyTechDude.com
       </div>
-      <div id="copyright">
-        &copy; 2025 Michael Yee. All rights reserved.
+    </section>
+
+    <section>
+      <div class="panel">
+        <header>
+          <h2 class="section-header" id="heal-the-divide">Let's Revitalize our Crumbling Health System by Publicly
+            Funding Hospitals</h2>
+          <h3>From Philadelphia to Appalachia, Let's Heal the Divide!</h3>
+        </header>
+        <p>
+          The pandemic put our public health system under enormous strain. Even today, private hospitals all around the
+          country are struggling to stay afloat. <b>The doctors, nurses, and health workers fought the virus on the
+            frontlines for us during the pandemic, so it's time for us to return the favor by getting on the frontlines
+            revitalize our failing health system.</b>
+        </p>
+        <p>
+          Crozer Chester Medical Center (CCMC) was a for-profit hospital in Chester County, PA that recently shut down
+          because it is more profitable to dismantle an entire health system than it is to serve the poor. For
+          impoverished urban areas like Chester, as well as under-served rural areas around the country where it might
+          take an hour to get to the nearest hospital, <b>let's advocate for public funding to revitalize our hospital
+            system</b>. We can fight to build new public hospitals and restore disproportionate share funding for
+          existing private hospitals (think Obamacare subsidies, but for hospitals, not health insurance). And <b>who
+            will foot the bill? The very people who profit by undermining our public health.</b> The wealthy will pay
+          for it all — <a href="taxes.html" target="_blank">not the high earners; the wealthy!</a> This time, we're
+          leaving no one behind — not the people in the inner city, and not the folks in countryside either. Americans
+          don't leave Americans behind. <b>Let's Heal the Divide!</b>
+        </p>
+        <p>
+          This one is personal for me, since Crozer Chester Medical Center was the hospital that saved my life when my
+          appendix was trying to kill me, and it is also where I received my first dose of the mRNA COVID vaccine.
+          Crozer Psychiatry saved my life when I went through a terrible mental health crisis during the worst of the
+          pandemic in late 2020. To me, <b>it is unconscionable for our society to let this hospital that has dutifully
+            served the community for years, go out of business</b>, especially one that helped us survive the pandemic.
+          And <b>it is unacceptable for rural Americans to have no nearby hospitals in the case their son or daughter
+            overdoses on drugs</b>. Together, we can bridge the urban/rural divide and fight for a government that works
+          for us, not themselves or their corporate cronies.
+        </p>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section id="about-me" class="panel">
+      <h2>About Me</h2>
+      <p>
+        I'm a 28-year-old software engineer who lives in Philly. After years of working in the private sector, I’ve
+        become increasingly motivated to shift my energy toward public service, advocacy, and civic engagement, because
+        I want to be a part of the solution, not the problem.
+      </p>
+      <p>
+        I never formally studied law, public policy, or political science; I'm just a guy who lives here, and I'm fed up
+        waiting for the next big establishment Democratic politician to save us from Trump while the whole world
+        devolves into madness.
+      </p>
+      <p>
+        All opinions and arguments that appear on this site are my own. Additionally, except where expressly denoted,
+        all policies that appear on this site are ones that I've engineered myself, not as an expert, but as a layman
+        and freedom-minded tech dude who came up with my own solutions and formed my own opinions through my own
+        observations, my own research, and my own critical thought.
+      </p>
+      <p>
+        Check out my <a href="https://agorapluribus.com" target="_blank">startup company Agora Pluribus Technologies</a>
+        and my <a href="https://apmikedotnet.bandcamp.com/" target="_blank">music on Bandcamp</a>.
+      </p>
+    </section>
+
+  </main>
+  <footer id="footer">
+    <div id="footer-bar" class="floating">
+      Philly Tech Dude Politics • PhillyTechDude.com
+    </div>
+    <div id="copyright">
+      &copy; 2025 Michael Yee. All rights reserved.
+    </div>
+  </footer>
+</body>
+
 </html>
