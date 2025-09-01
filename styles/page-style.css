@@ -384,17 +384,16 @@ table, th, td {
 @media (max-width: 768px) {
 
   .grid-container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24px;
     grid-template-columns: repeat(1, 1fr);
     width: 95%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 24px auto;
     gap: 24px;
+  }
+
+  .grid-item:nth-child(odd):last-child {
+    grid-column: span 1;
+    max-width: none;
+    margin: 0;
   }
 
   .grid-container-single {
@@ -454,7 +453,7 @@ table, th, td {
 
   p {
     font-size: 10pt;
-    padding: 12px;
+    padding: 0px 12px 12px 12px;
   }
 
   h1 {
